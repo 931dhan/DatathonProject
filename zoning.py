@@ -13,7 +13,7 @@ def detLatBounds() -> list:
 # x axis is the number of cityline complaints, y axis is the number of parking violations 
 # Given a num of horizontal and vertical divisions, determine the cubic meters of each area by performing conversioin of lat and long to meters. 
 # Returns list of objects, each object includes lat, long ranges.
-def zones(minLong, maxLong, minLad, maxLad,numOfHorizontalDivs: int, numOfVerticalDivs: int) -> (int):
+def zones(minLong, maxLong, minLad, maxLad,numOfHorizontalDivs: int, numOfVerticalDivs: int) -> (list[object]):
     y_distance = maxLad - minLad
     x_distance = maxLong - minLong
     
@@ -35,6 +35,9 @@ def zones(minLong, maxLong, minLad, maxLad,numOfHorizontalDivs: int, numOfVertic
             arrZones += zoneDimensions
             
             print(zoneDimensions)
+
+    return arrZones
+    
 
 
 
