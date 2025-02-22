@@ -19,5 +19,5 @@ def dfInfo():
     # Check for any null values     
     print(df.isnull().sum())
 
-print(df[df["Minutes_to_Acknowledge"] >= 10])
+dfInfo()
 
