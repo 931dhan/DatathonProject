@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 
-df = pd.read_csv("Parking_Violations_-_2023_-_Present(1).csv")
+df = pd.read_csv("ourDatasetWithCategories.csv")
 
 
 # Checking if dataset is valid
@@ -19,5 +19,5 @@ def dfInfo():
     # Check for any null values     
     print(df.isnull().sum())
 
-dfInfo()
 
+print(df.at[3, 'categories'])

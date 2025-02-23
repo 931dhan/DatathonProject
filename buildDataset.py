@@ -67,6 +67,11 @@ def AnimalsRequests(minLat, maxLat, minLong, maxLong):
     return len(filterd)
 
 
+def aggregateCategories(minLat, maxLat, minLong, maxLong):
+    filterd = df2[(df2['Lat'] >= minLat) & (df2['Lat'] <= maxLat)
+                & (df2['Lng'] >= minLong) & (df2['Lng'] <= maxLong)]   
+    return filterd["Category"]
+
 # Column 1, 2 should be long range, lat range from arrZones object respectively
 # Column 3, 4 will be the number of city complaints and the number of parking violations 
 
@@ -80,20 +85,25 @@ def createArrZones(numOfHorizontalDivs: int, numOfVerticalDivs: int):
 def buildDataSet(arrZones):
     arrOfRows = []
     for zone in arrZones: 
+        minLat = zone["latRange"][0]
+        maxLat = zone["latRange"][1]
+        minLong = zone["longRange"][0]
+        maxLong = zone["longRange"][1]
         row = {
             "latRange" : zone["latRange"], 
             "longRange" : zone["longRange"], 
-            "numOfCityComp" : numberOfCityComps(zone["latRange"][0], zone["latRange"][1], zone["longRange"][0], zone["longRange"][1]), 
-            "numOfParkingViol" : numberOfParkingViolations(zone["latRange"][0], zone["latRange"][1], zone["longRange"][0], zone["longRange"][1]),
-            "numOfTransportReq" : StreetsSidewalksRequests(zone["latRange"][0], zone["latRange"][1], zone["longRange"][0], zone["longRange"][1]),
-            "numOfGarbageRecycleGraffitiReq" : GarbRecyGraffRequests(zone["latRange"][0], zone["latRange"][1], zone["longRange"][0], zone["longRange"][1]),
-            "numOfHousingPropertyReq" : HousingPropertyRequests(zone["latRange"][0], zone["latRange"][1], zone["longRange"][0], zone["longRange"][1]),
-            "numOfCityFeedbackReq" : FeedbackToCityRequests(zone["latRange"][0], zone["latRange"][1], zone["longRange"][0], zone["longRange"][1]),
-            "numOfParkingVehiclesReq" : ParkingVehiclesRequests(zone["latRange"][0], zone["latRange"][1], zone["longRange"][0], zone["longRange"][1]),
-            "numOfGreenSpaces" : GreenSpacesRequests(zone["latRange"][0], zone["latRange"][1], zone["longRange"][0], zone["longRange"][1]),
-            "numOfWaterSewageReq" : WaterSewageRequests(zone["latRange"][0], zone["latRange"][1], zone["longRange"][0], zone["longRange"][1]),
-            "numOfAnimalsReq" : AnimalsRequests(zone["latRange"][0], zone["latRange"][1], zone["longRange"][0], zone["longRange"][1]),
-
+            "numOfCityComp" : numberOfCityComps(minLat, maxLat, minLong, maxLong), 
+            "numOfParkingViol" : numberOfParkingViolations(minLat, maxLat, minLong, maxLong),
+            "numOfTransportReq" : StreetsSidewalksRequests(minLat, maxLat, minLong, maxLong),
+            "numOfGarbageRecycleGraffitiReq" : GarbRecyGraffRequests(minLat, maxLat, minLong, maxLong),
+            "numOfHousingPropertyReq" : HousingPropertyRequests(minLat, maxLat, minLong, maxLong),
+            "numOfCityFeedbackReq" : FeedbackToCityRequests(minLat, maxLat, minLong, maxLong),
+            "numOfParkingVehiclesReq" : ParkingVehiclesRequests(minLat, maxLat, minLong, maxLong),
+            "numOfGreenSpaces" : GreenSpacesRequests(minLat, maxLat, minLong, maxLong),
+            "numOfWaterSewageReq" : WaterSewageRequests(minLat, maxLat, minLong, maxLong),
+            "numOfAnimalsReq" : AnimalsRequests(minLat, maxLat, minLong, maxLong),
+            "categories" : aggregateCategories(minLat,maxLat, minLong, maxLong)
+            
         }
         arrOfRows.append(row)
 
@@ -102,12 +112,13 @@ def buildDataSet(arrZones):
 
 
 
-# ourDf = buildDataSet(createArrZones(50, 50))
-# ourDf2 = ourDf[ourDf["numOfParkingViol"] > 1000]
+ourDf = buildDataSet(createArrZones(50, 50))
+ourDf2 = ourDf[ourDf["numOfParkingViol"] > 1000]
+print(ourDf2)
 
 
 cwd = os.getcwd()
 print(cwd)
-# path = cwd + "/new"
-# ourDf2.to_csv(path)
+path = cwd + "/ourDatasetWithCategories.csv"
+ourDf2.to_csv(path)
 

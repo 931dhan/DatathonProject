@@ -1,0 +1,373 @@
+,latRange,longRange,numOfCityComp,numOfParkingViol,numOfTransportReq,numOfGarbageRecycleGraffitiReq,numOfHousingPropertyReq,numOfCityFeedbackReq,numOfParkingVehiclesReq,numOfGreenSpaces,numOfWaterSewageReq,numOfAnimalsReq,categories
+773,"[np.float64(43.031182899999926), np.float64(43.03315019999992)]","[np.float64(-76.16553000000008), np.float64(-76.16301200000008)]",191,1633,9,123,19,0,0,8,29,0,"311               Report a Skipped Weekly Trash Pick Up
+1196                          Sewer Back-ups (INTERNAL)
+1476              Report a Skipped Weekly Trash Pick Up
+2003      Large or Bulk Items- Setout notification only
+2928                          Sewer Back-ups (INTERNAL)
+                              ...                      
+109766           Report Overgrown Grass on Private Land
+110466                     Report Litter on Public Land
+111209            Report a Skipped Weekly Trash Pick Up
+111558            Report a Skipped Weekly Trash Pick Up
+112437                        Sewer Back-ups (INTERNAL)
+Name: Category, Length: 191, dtype: object"
+931,"[np.float64(43.0469212999999), np.float64(43.0488885999999)]","[np.float64(-76.15797600000009), np.float64(-76.1554580000001)]",125,1607,29,25,5,0,8,22,34,1,"1001          Graffiti on Private Land
+1924                 Pavement Markings
+2827      Other Sewer-related Concerns
+2844         Sanitation Exempt Skipped
+6423      Other Sewer-related Concerns
+                      ...             
+108738         Traffic & Parking Signs
+109197    Report Litter on Public Land
+110202    Other Sewer-related Concerns
+112074    Other Sewer-related Concerns
+112304        Graffiti on Private Land
+Name: Category, Length: 125, dtype: object"
+980,"[np.float64(43.044953999999905), np.float64(43.0469212999999)]","[np.float64(-76.1554580000001), np.float64(-76.1529400000001)]",31,1123,10,5,7,1,3,1,4,0,"2404                                 Water-related Concerns
+7377                                       Report a Pothole
+9091                                              Sidewalks
+12677          Other Housing & Property Maintenance Concern
+17123                          Report Litter on Public Land
+18515     Report external dirt/debris blocking a Catch B...
+20352                          Report Litter on Public Land
+22453                          Report Litter on Public Land
+24318                          Report Litter on Public Land
+27449                          Report Litter on Public Land
+28384                                             Sidewalks
+29234     To report an illegally parked vehicle, please ...
+29263     Please use this space to provide feedback to t...
+31329                                     Pavement Markings
+32906                                             Sidewalks
+37376          Other Housing & Property Maintenance Concern
+37428                Report Overgrown Grass on Private Land
+40756                          Other Sewer-related Concerns
+42215     To report an illegally parked vehicle, please ...
+43979     To report an illegally parked vehicle, please ...
+48519                                              Potholes
+52006         Other Parks, Trees & Public Utilities Concern
+63134          Other Housing & Property Maintenance Concern
+64467                Report Overgrown Grass on Private Land
+64725                Report Overgrown Grass on Private Land
+76672                                            Snow & Ice
+86373                           Home & Building Maintenance
+87460                                              Potholes
+89307                                              Potholes
+92275                                             Sidewalks
+100399    Report external dirt/debris blocking a Catch B...
+Name: Category, dtype: object"
+981,"[np.float64(43.0469212999999), np.float64(43.0488885999999)]","[np.float64(-76.1554580000001), np.float64(-76.1529400000001)]",188,1933,52,53,15,3,10,13,35,0,"441            Other Housing & Property Maintenance Concern
+498            Other Housing & Property Maintenance Concern
+927                                           Parking Meter
+1178      Please use this space to provide feedback to t...
+1183                           Report Litter on Public Land
+                                ...                        
+111996                         Report Litter on Public Land
+112216         Other Housing & Property Maintenance Concern
+112428    Please use this space to provide feedback to t...
+112431                         Report Litter on Public Land
+112774         Other Housing & Property Maintenance Concern
+Name: Category, Length: 188, dtype: object"
+982,"[np.float64(43.0488885999999), np.float64(43.050855899999895)]","[np.float64(-76.1554580000001), np.float64(-76.1529400000001)]",70,2284,24,8,0,0,4,22,9,2,"2992                                      Street Lights
+6300                              Tree Care and Removal
+6301                              Tree Care and Removal
+7200                       Report Litter on Public Land
+7719                       Other Sewer-related Concerns
+                              ...                      
+94731                             Tree Care and Removal
+98739                                         Sidewalks
+100419    Other Parks, Trees & Public Utilities Concern
+106199                         Graffiti on Private Land
+108415                     Other Sewer-related Concerns
+Name: Category, Length: 70, dtype: object"
+1030,"[np.float64(43.044953999999905), np.float64(43.0469212999999)]","[np.float64(-76.1529400000001), np.float64(-76.1504220000001)]",64,3685,21,11,4,1,3,5,15,0,"1427           Other Housing & Property Maintenance Concern
+1536                                        Traffic Signals
+1788                                      Pavement Markings
+3595                              Sewer Back-ups (INTERNAL)
+6296                                  Tree Care and Removal
+                                ...                        
+110036                         Report Litter on Public Land
+110352                           Street Sweeping (INTERNAL)
+110706    Other Streets, Sidewalks & Transportation Concern
+111161         Other Housing & Property Maintenance Concern
+112552                                      Traffic Signals
+Name: Category, Length: 64, dtype: object"
+1031,"[np.float64(43.0469212999999), np.float64(43.0488885999999)]","[np.float64(-76.1529400000001), np.float64(-76.1504220000001)]",165,5132,53,52,9,0,15,19,14,1,"920       Other Housing & Property Maintenance Concern
+1174                      Report Litter on Public Land
+1234                                     Parking Meter
+1541                      Report Litter on Public Land
+2109                                  Report a Pothole
+                              ...                     
+110998                    Report Litter on Public Land
+111395    Other Housing & Property Maintenance Concern
+111609                    Report Litter on Public Land
+112454                                   Parking Meter
+112650                    Report Litter on Public Land
+Name: Category, Length: 165, dtype: object"
+1032,"[np.float64(43.0488885999999), np.float64(43.050855899999895)]","[np.float64(-76.1529400000001), np.float64(-76.1504220000001)]",250,4640,103,59,5,6,21,28,17,2,"900                    Traffic Signals
+1434      Other Sewer-related Concerns
+1452      Other Sewer-related Concerns
+1565      Report Litter on Public Land
+1795         Sewer Back-ups (INTERNAL)
+                      ...             
+111168    Other Sewer-related Concerns
+111186    Other Sewer-related Concerns
+111373                 Traffic Signals
+112071                 Traffic Signals
+112766    Report Litter on Public Land
+Name: Category, Length: 250, dtype: object"
+1080,"[np.float64(43.044953999999905), np.float64(43.0469212999999)]","[np.float64(-76.1504220000001), np.float64(-76.14790400000011)]",45,1662,15,3,1,0,4,11,10,1,"1426                                  Tree Care and Removal
+2113          Other Parks, Trees & Public Utilities Concern
+2115                                              Sidewalks
+2854                                  Tree Care and Removal
+6295                                  Tree Care and Removal
+8994                                              Sidewalks
+9510                                        Traffic Signals
+17290                                      Park Maintenance
+19347           Report Trash/Debris Outside a Home/Building
+22741                          Report Litter on Public Land
+23754     Report internal structural damage of a Catch B...
+29240                                        Animal Control
+30121                                Water-related Concerns
+30261                          Other Sewer-related Concerns
+30267                                 Tree Care and Removal
+30363                                             Sidewalks
+30540                                      Park Maintenance
+31055                                              Potholes
+32375                          Other Sewer-related Concerns
+35520                          Report Litter on Public Land
+36100                                              Potholes
+37739                                             Sidewalks
+38289                               Traffic & Parking Signs
+39933                                      Park Maintenance
+43849                             Sewer Back-ups (INTERNAL)
+44297                                      Park Maintenance
+47769                                             Sidewalks
+53121                                         Parking Meter
+59444                                             Sidewalks
+67061                                             Sidewalks
+73926                          Other Sewer-related Concerns
+76505                          Other Sewer-related Concerns
+77873         Other Parks, Trees & Public Utilities Concern
+81463                             Sewer Back-ups (INTERNAL)
+81970                             Sewer Back-ups (INTERNAL)
+91761                                              Potholes
+92928                      Other Parking & Vehicles Concern
+96268                    Report an illegally parked vehicle
+98704                                      Report a Pothole
+99796                             Sewer Back-ups (INTERNAL)
+101467                                        Street Lights
+102865                        Report a Skipped Bulk Pick Up
+107450                                            Sidewalks
+110808                   Report an illegally parked vehicle
+111160                                Tree Care and Removal
+Name: Category, dtype: object"
+1081,"[np.float64(43.0469212999999), np.float64(43.0488885999999)]","[np.float64(-76.1504220000001), np.float64(-76.14790400000011)]",90,3755,29,31,5,2,5,8,9,1,"931                                Graffiti on Private Land
+2158                                  Tree Care and Removal
+2766      Other Streets, Sidewalks & Transportation Concern
+3209      Please use this space to provide feedback to t...
+3941                                Traffic & Parking Signs
+                                ...                        
+105010                         Other Sewer-related Concerns
+106010                         Other Sewer-related Concerns
+106424        Large or Bulk Items- Setout notification only
+110153                         Report Litter on Public Land
+111406                             Graffiti on Private Land
+Name: Category, Length: 90, dtype: object"
+1082,"[np.float64(43.0488885999999), np.float64(43.050855899999895)]","[np.float64(-76.1504220000001), np.float64(-76.14790400000011)]",243,2423,48,75,27,7,26,25,22,4,"919        Other Housing & Property Maintenance Concern
+926                                       Street Lights
+1421                                   Park Maintenance
+1929                                      Parking Meter
+2059                       Report Litter on Public Land
+                              ...                      
+108740    Large or Bulk Items- Setout notification only
+110021                                    Street Lights
+111155                                 Park Maintenance
+111394     Other Housing & Property Maintenance Concern
+111401                                    Street Lights
+Name: Category, Length: 243, dtype: object"
+1130,"[np.float64(43.044953999999905), np.float64(43.0469212999999)]","[np.float64(-76.14790400000011), np.float64(-76.14538600000012)]",16,1346,4,4,1,3,1,0,3,0,"1425      Please use this space to provide feedback to t...
+2595                            Home & Building Maintenance
+3282                                              Sidewalks
+19467                 Report a Skipped Weekly Trash Pick Up
+21682     Please use this space to provide feedback to t...
+23867     Request Construction Debris Pick Up (May and S...
+25528     Report internal structural damage of a Catch B...
+29665                                         Street Lights
+30141                               Traffic & Parking Signs
+51462                                       Illegal Setouts
+52695                                         Parking Meter
+93167                             Sewer Back-ups (INTERNAL)
+93562                          Report Litter on Public Land
+104677                         Other Sewer-related Concerns
+107259    Other Streets, Sidewalks & Transportation Concern
+111159    Please use this space to provide feedback to t...
+Name: Category, dtype: object"
+1277,"[np.float64(43.039052099999914), np.float64(43.04101939999991)]","[np.float64(-76.14035000000013), np.float64(-76.13783200000013)]",7,1010,4,1,0,0,1,0,1,0,"19139                   Pavement Markings
+22982                     Illegal Setouts
+56271           Sewer Back-ups (INTERNAL)
+74724    Other Parking & Vehicles Concern
+83681                       Street Lights
+87735                     Traffic Signals
+88759                     Traffic Signals
+Name: Category, dtype: object"
+1328,"[np.float64(43.04101939999991), np.float64(43.04298669999991)]","[np.float64(-76.13783200000013), np.float64(-76.13531400000014)]",97,3151,32,23,6,0,5,2,29,0,"580                         Sewer Back-ups (INTERNAL)
+581                         Sewer Back-ups (INTERNAL)
+1559      Report Trash/Debris Outside a Home/Building
+2032                          Traffic & Parking Signs
+5379                                 Report a Pothole
+                             ...                     
+108999                   Other Sewer-related Concerns
+110927                                     Snow & Ice
+112344                      Sewer Back-ups (INTERNAL)
+112352                      Sewer Back-ups (INTERNAL)
+112740    Report Trash/Debris Outside a Home/Building
+Name: Category, Length: 97, dtype: object"
+1330,"[np.float64(43.044953999999905), np.float64(43.0469212999999)]","[np.float64(-76.13783200000013), np.float64(-76.13531400000014)]",40,1037,15,7,0,0,2,3,10,0,"847                                 Traffic & Parking Signs
+3068                                  Tree Care and Removal
+4285                                        Illegal Setouts
+10247                             Sewer Back-ups (INTERNAL)
+10375                          Other Sewer-related Concerns
+10993                                      Report a Pothole
+12319                          Other Sewer-related Concerns
+12583                                       Traffic Signals
+14714                                      Report a Pothole
+15060                             Sewer Back-ups (INTERNAL)
+15607                             Sewer Back-ups (INTERNAL)
+22143                          Other Sewer-related Concerns
+24145                                 Tree Care and Removal
+27849                          Report Litter on Public Land
+28504                                              Potholes
+28968                                              Potholes
+29109                               Traffic & Parking Signs
+33569                                 Tree Care and Removal
+41965                      Health, Safety & Social Services
+43470     Other Streets, Sidewalks & Transportation Concern
+48952                             Sewer Back-ups (INTERNAL)
+50885                             Sewer Back-ups (INTERNAL)
+51444                                              Potholes
+60024                                         Parking Meter
+68058                                              Potholes
+84108                          Other Sewer-related Concerns
+88030                                     Pavement Markings
+93318                                      Report a Pothole
+95075                               Graffiti on Public Land
+95940                               Traffic & Parking Signs
+96295                               Graffiti on Public Land
+98260                                      Report a Pothole
+99194                             Sewer Back-ups (INTERNAL)
+99362                               Graffiti on Public Land
+100026                                      Traffic Signals
+108750                                     Report a Pothole
+108877                                        Parking Meter
+110846                         Report Litter on Public Land
+111726                              Traffic & Parking Signs
+112664                         Report Litter on Public Land
+Name: Category, dtype: object"
+1378,"[np.float64(43.04101939999991), np.float64(43.04298669999991)]","[np.float64(-76.13531400000014), np.float64(-76.13279600000014)]",33,6298,13,4,0,0,5,1,10,0,"1821               Sewer Back-ups (INTERNAL)
+2244             Report an Abandoned Vehicle
+7274                               Sidewalks
+10188              Sewer Back-ups (INTERNAL)
+14914              Sewer Back-ups (INTERNAL)
+16929               Trash Can on Public Land
+17408     Report an illegally parked vehicle
+23563                  Tree Care and Removal
+29547                        Illegal Setouts
+30381                Traffic & Parking Signs
+34461           Other Sewer-related Concerns
+34508                 Water-related Concerns
+34901           Other Sewer-related Concerns
+40175                          Parking Meter
+41585               Trash Can on Public Land
+42244                      Pavement Markings
+57489              Sewer Back-ups (INTERNAL)
+58585                          Parking Meter
+58994                              Sidewalks
+60600           Other Sewer-related Concerns
+65372          Report Litter on Private Land
+75052                               Potholes
+75290                               Potholes
+81468              Sewer Back-ups (INTERNAL)
+83020                          Street Lights
+83149                          Street Lights
+90101                          Parking Meter
+93996                             Snow & Ice
+103036               Traffic & Parking Signs
+109110                             Sidewalks
+109279                             Sidewalks
+110204                            Snow & Ice
+111027             Sewer Back-ups (INTERNAL)
+Name: Category, dtype: object"
+1427,"[np.float64(43.039052099999914), np.float64(43.04101939999991)]","[np.float64(-76.13279600000014), np.float64(-76.13027800000015)]",5,3512,4,0,0,0,0,0,1,0,"3052                   Traffic Signals
+42240          Traffic & Parking Signs
+62383                  Traffic Signals
+88418                  Traffic Signals
+107135    Other Sewer-related Concerns
+Name: Category, dtype: object"
+1428,"[np.float64(43.04101939999991), np.float64(43.04298669999991)]","[np.float64(-76.13279600000014), np.float64(-76.13027800000015)]",18,1467,5,1,0,0,1,2,7,0,"10393                          Other Sewer-related Concerns
+10872                             Sewer Back-ups (INTERNAL)
+14182                          Other Sewer-related Concerns
+15063                 Carts-Wrong Number of Carts Delivered
+20137                                 Tree Care and Removal
+24430                               Traffic & Parking Signs
+27560                                   Weekly Trash Pickup
+29961                 Carts-Wrong Number of Carts Delivered
+30225                                      Park Maintenance
+40633     Other Streets, Sidewalks & Transportation Concern
+46373                          Other Sewer-related Concerns
+47823                          Other Sewer-related Concerns
+72349                                       Traffic Signals
+72506                                              Potholes
+78266                             Sewer Back-ups (INTERNAL)
+79045                             Sewer Back-ups (INTERNAL)
+88666     To report an illegally parked vehicle, please ...
+110818                                        Street Lights
+Name: Category, dtype: object"
+1429,"[np.float64(43.04298669999991), np.float64(43.044953999999905)]","[np.float64(-76.13279600000014), np.float64(-76.13027800000015)]",24,1484,6,9,0,0,0,0,4,0,"13287                                       Cart Stolen
+13324                                  Report a Pothole
+15201                                  Report a Pothole
+17732                         Sewer Back-ups (INTERNAL)
+22115                                       Cart Stolen
+24858                                     Cart Feedback
+29084                      Other Sewer-related Concerns
+33725                               Weekly Trash Pickup
+39218                                       Cart Stolen
+39224                                       Cart Stolen
+44187                                          Potholes
+48289                        Street Sweeping (INTERNAL)
+59076         Recycling (pick up that has been skipped)
+59302     Large or Bulk Items- Setout notification only
+61066                           Traffic & Parking Signs
+73519                                   Illegal Setouts
+73596                                   Illegal Setouts
+73611                                   Illegal Setouts
+73768                                   Illegal Setouts
+81562                      Other Sewer-related Concerns
+84712                                   Illegal Setouts
+89939                                          Potholes
+104836                     Other Sewer-related Concerns
+110828                                    Street Lights
+Name: Category, dtype: object"
+1430,"[np.float64(43.044953999999905), np.float64(43.0469212999999)]","[np.float64(-76.13279600000014), np.float64(-76.13027800000015)]",118,2693,21,48,4,0,5,1,23,2,"569                               Sewer Back-ups (INTERNAL)
+1142                                        Traffic Signals
+1156                                Traffic & Parking Signs
+3756                                             Yard Waste
+3843      Other Streets, Sidewalks & Transportation Concern
+                                ...                        
+110422                   Report a Skipped Recycling Pick Up
+112077                   Report a Skipped Recycling Pick Up
+112177                                      Traffic Signals
+112290                              Traffic & Parking Signs
+113056                            Sewer Back-ups (INTERNAL)
+Name: Category, Length: 118, dtype: object"
+1476,"[np.float64(43.03708479999992), np.float64(43.039052099999914)]","[np.float64(-76.13027800000015), np.float64(-76.12776000000015)]",68,1521,2,44,14,0,1,0,2,2,"18                          Sewer Back-ups (INTERNAL)
+5915                                  Illegal Setouts
+8978                    Report Litter on Private Land
+9153                     Other Sewer-related Concerns
+13109                                     Cart Stolen
+                             ...                     
+97788     Report Trash/Debris Outside a Home/Building
+97908                   Report Litter on Private Land
+99895     Report Trash/Debris Outside a Home/Building
+104493                                Illegal Setouts
+108911                                Illegal Setouts
+Name: Category, Length: 68, dtype: object"
