@@ -1,6 +1,6 @@
 import pandas as pd 
 import matplotlib as mpl
-import numpy as np
+import numpy as np      
 
 import plotly 
 import plotly.graph_objects as go
@@ -18,5 +18,24 @@ def requestsByAgency():
     fig.show()
 
 
-# def requestsByAgencyInZone(latRange, longRange):
-#     fig = go.Figure(data = )
+def requestsByAgencyInZone(latRange, longRange):
+    filterd = df[
+        (df['latRange'] == latRange) & 
+        (df['longRange'] == longRange)
+        ]
+
+
+    fig = go.Figure(data=[go.Pie(labels=agencyArr[5:], 
+                                values=filterd[agencyArr[5:]].sum()
+                                )
+                                ])
+    fig.show()
+
+print(type(df["latRange"][0]))
+
+latRange = "[np.float64(43.031182899999926), np.float64(43.03315019999992)]"
+longRange = "[np.float64(-76.16553000000008), np.float64(-76.16301200000008)]"
+
+
+requestsByAgency()
+requestsByAgencyInZone(latRange, longRange)
