@@ -38,6 +38,9 @@ def zones(minLong, maxLong, minLad, maxLad,numOfHorizontalDivs: int, numOfVertic
     zoneWidth = (x_distance / numOfVerticalDivs)
     zoneHeight = (y_distance / numOfHorizontalDivs) 
     
+    print(zoneWidth)
+    print(zoneHeight)
+    
     arrayOfLongs = np.arange(minLong, maxLong, zoneWidth)
     arrayOfLats = np.arange(minLad, maxLad, zoneHeight)
 

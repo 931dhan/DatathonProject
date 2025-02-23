@@ -49,4 +49,4 @@ def buildDataSet(arrZones):
     return pd.DataFrame(arrOfRows)
 
 
-print(buildDataSet(createArrZones(6, 6)))
+print(buildDataSet(createArrZones(10, 10)))
