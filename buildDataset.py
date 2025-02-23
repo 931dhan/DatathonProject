@@ -18,7 +18,7 @@ print(len(df))
 def numberOfCityComps(minLat, maxLat, minLong, maxLong) -> int: 
     filterd = df2[(df2['Lat'] >= minLat) & (df2['Lat'] <= maxLat)
                 & (df2['Lng'] >= minLong) & (df2['Lng'] <= maxLong)]   
-    return(len(filterd))
+    return len(filterd)
 
 print(numberOfCityComps(df2["Lat"].min(), df2["Lat"].max(), df2["Lng"].min(), df2["Lng"].max()))
 print(len(df2))
@@ -43,9 +43,10 @@ def buildDataSet(arrZones):
             "numOfCityComp" : numberOfCityComps(zone["latRange"][0], zone["latRange"][1], zone["longRange"][0], zone["longRange"][1]), 
             "numOfParkingViol" : numberOfParkingViolations(zone["latRange"][0], zone["latRange"][1], zone["longRange"][0], zone["longRange"][1])
         }
-        arrOfRows += row
+        arrOfRows.append(row)
 
-    return pd.DataFrame(arrZones)
+    
+    return pd.DataFrame(arrOfRows)
 
 
-print(buildDataSet(createArrZones(4, 4)).columns)
+print(buildDataSet(createArrZones(6, 6)))
