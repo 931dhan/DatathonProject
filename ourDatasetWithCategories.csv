@@ -1,373 +1,922 @@
 ,latRange,longRange,numOfCityComp,numOfParkingViol,numOfTransportReq,numOfGarbageRecycleGraffitiReq,numOfHousingPropertyReq,numOfCityFeedbackReq,numOfParkingVehiclesReq,numOfGreenSpaces,numOfWaterSewageReq,numOfAnimalsReq,categories
-773,"[np.float64(43.031182899999926), np.float64(43.03315019999992)]","[np.float64(-76.16553000000008), np.float64(-76.16301200000008)]",191,1633,9,123,19,0,0,8,29,0,"311               Report a Skipped Weekly Trash Pick Up
-1196                          Sewer Back-ups (INTERNAL)
-1476              Report a Skipped Weekly Trash Pick Up
-2003      Large or Bulk Items- Setout notification only
-2928                          Sewer Back-ups (INTERNAL)
-                              ...                      
-109766           Report Overgrown Grass on Private Land
-110466                     Report Litter on Public Land
-111209            Report a Skipped Weekly Trash Pick Up
-111558            Report a Skipped Weekly Trash Pick Up
-112437                        Sewer Back-ups (INTERNAL)
-Name: Category, Length: 191, dtype: object"
-931,"[np.float64(43.0469212999999), np.float64(43.0488885999999)]","[np.float64(-76.15797600000009), np.float64(-76.1554580000001)]",125,1607,29,25,5,0,8,22,34,1,"1001          Graffiti on Private Land
-1924                 Pavement Markings
-2827      Other Sewer-related Concerns
-2844         Sanitation Exempt Skipped
-6423      Other Sewer-related Concerns
-                      ...             
-108738         Traffic & Parking Signs
-109197    Report Litter on Public Land
-110202    Other Sewer-related Concerns
-112074    Other Sewer-related Concerns
-112304        Graffiti on Private Land
-Name: Category, Length: 125, dtype: object"
-980,"[np.float64(43.044953999999905), np.float64(43.0469212999999)]","[np.float64(-76.1554580000001), np.float64(-76.1529400000001)]",31,1123,10,5,7,1,3,1,4,0,"2404                                 Water-related Concerns
-7377                                       Report a Pothole
-9091                                              Sidewalks
-12677          Other Housing & Property Maintenance Concern
-17123                          Report Litter on Public Land
-18515     Report external dirt/debris blocking a Catch B...
-20352                          Report Litter on Public Land
-22453                          Report Litter on Public Land
-24318                          Report Litter on Public Land
-27449                          Report Litter on Public Land
-28384                                             Sidewalks
-29234     To report an illegally parked vehicle, please ...
-29263     Please use this space to provide feedback to t...
-31329                                     Pavement Markings
-32906                                             Sidewalks
-37376          Other Housing & Property Maintenance Concern
-37428                Report Overgrown Grass on Private Land
-40756                          Other Sewer-related Concerns
-42215     To report an illegally parked vehicle, please ...
-43979     To report an illegally parked vehicle, please ...
-48519                                              Potholes
-52006         Other Parks, Trees & Public Utilities Concern
-63134          Other Housing & Property Maintenance Concern
-64467                Report Overgrown Grass on Private Land
-64725                Report Overgrown Grass on Private Land
-76672                                            Snow & Ice
-86373                           Home & Building Maintenance
-87460                                              Potholes
-89307                                              Potholes
-92275                                             Sidewalks
-100399    Report external dirt/debris blocking a Catch B...
-Name: Category, dtype: object"
-981,"[np.float64(43.0469212999999), np.float64(43.0488885999999)]","[np.float64(-76.1554580000001), np.float64(-76.1529400000001)]",188,1933,52,53,15,3,10,13,35,0,"441            Other Housing & Property Maintenance Concern
-498            Other Housing & Property Maintenance Concern
-927                                           Parking Meter
-1178      Please use this space to provide feedback to t...
-1183                           Report Litter on Public Land
-                                ...                        
-111996                         Report Litter on Public Land
-112216         Other Housing & Property Maintenance Concern
-112428    Please use this space to provide feedback to t...
-112431                         Report Litter on Public Land
-112774         Other Housing & Property Maintenance Concern
-Name: Category, Length: 188, dtype: object"
-982,"[np.float64(43.0488885999999), np.float64(43.050855899999895)]","[np.float64(-76.1554580000001), np.float64(-76.1529400000001)]",70,2284,24,8,0,0,4,22,9,2,"2992                                      Street Lights
-6300                              Tree Care and Removal
-6301                              Tree Care and Removal
-7200                       Report Litter on Public Land
-7719                       Other Sewer-related Concerns
-                              ...                      
-94731                             Tree Care and Removal
-98739                                         Sidewalks
-100419    Other Parks, Trees & Public Utilities Concern
-106199                         Graffiti on Private Land
-108415                     Other Sewer-related Concerns
-Name: Category, Length: 70, dtype: object"
-1030,"[np.float64(43.044953999999905), np.float64(43.0469212999999)]","[np.float64(-76.1529400000001), np.float64(-76.1504220000001)]",64,3685,21,11,4,1,3,5,15,0,"1427           Other Housing & Property Maintenance Concern
-1536                                        Traffic Signals
-1788                                      Pavement Markings
-3595                              Sewer Back-ups (INTERNAL)
-6296                                  Tree Care and Removal
-                                ...                        
-110036                         Report Litter on Public Land
-110352                           Street Sweeping (INTERNAL)
-110706    Other Streets, Sidewalks & Transportation Concern
-111161         Other Housing & Property Maintenance Concern
-112552                                      Traffic Signals
-Name: Category, Length: 64, dtype: object"
-1031,"[np.float64(43.0469212999999), np.float64(43.0488885999999)]","[np.float64(-76.1529400000001), np.float64(-76.1504220000001)]",165,5132,53,52,9,0,15,19,14,1,"920       Other Housing & Property Maintenance Concern
-1174                      Report Litter on Public Land
-1234                                     Parking Meter
-1541                      Report Litter on Public Land
-2109                                  Report a Pothole
-                              ...                     
-110998                    Report Litter on Public Land
-111395    Other Housing & Property Maintenance Concern
-111609                    Report Litter on Public Land
-112454                                   Parking Meter
-112650                    Report Litter on Public Land
-Name: Category, Length: 165, dtype: object"
-1032,"[np.float64(43.0488885999999), np.float64(43.050855899999895)]","[np.float64(-76.1529400000001), np.float64(-76.1504220000001)]",250,4640,103,59,5,6,21,28,17,2,"900                    Traffic Signals
-1434      Other Sewer-related Concerns
-1452      Other Sewer-related Concerns
-1565      Report Litter on Public Land
-1795         Sewer Back-ups (INTERNAL)
-                      ...             
-111168    Other Sewer-related Concerns
-111186    Other Sewer-related Concerns
-111373                 Traffic Signals
-112071                 Traffic Signals
-112766    Report Litter on Public Land
-Name: Category, Length: 250, dtype: object"
-1080,"[np.float64(43.044953999999905), np.float64(43.0469212999999)]","[np.float64(-76.1504220000001), np.float64(-76.14790400000011)]",45,1662,15,3,1,0,4,11,10,1,"1426                                  Tree Care and Removal
-2113          Other Parks, Trees & Public Utilities Concern
-2115                                              Sidewalks
-2854                                  Tree Care and Removal
-6295                                  Tree Care and Removal
-8994                                              Sidewalks
-9510                                        Traffic Signals
-17290                                      Park Maintenance
-19347           Report Trash/Debris Outside a Home/Building
-22741                          Report Litter on Public Land
-23754     Report internal structural damage of a Catch B...
-29240                                        Animal Control
-30121                                Water-related Concerns
-30261                          Other Sewer-related Concerns
-30267                                 Tree Care and Removal
-30363                                             Sidewalks
-30540                                      Park Maintenance
-31055                                              Potholes
-32375                          Other Sewer-related Concerns
-35520                          Report Litter on Public Land
-36100                                              Potholes
-37739                                             Sidewalks
-38289                               Traffic & Parking Signs
-39933                                      Park Maintenance
-43849                             Sewer Back-ups (INTERNAL)
-44297                                      Park Maintenance
-47769                                             Sidewalks
-53121                                         Parking Meter
-59444                                             Sidewalks
-67061                                             Sidewalks
-73926                          Other Sewer-related Concerns
-76505                          Other Sewer-related Concerns
-77873         Other Parks, Trees & Public Utilities Concern
-81463                             Sewer Back-ups (INTERNAL)
-81970                             Sewer Back-ups (INTERNAL)
-91761                                              Potholes
-92928                      Other Parking & Vehicles Concern
-96268                    Report an illegally parked vehicle
-98704                                      Report a Pothole
-99796                             Sewer Back-ups (INTERNAL)
-101467                                        Street Lights
-102865                        Report a Skipped Bulk Pick Up
-107450                                            Sidewalks
-110808                   Report an illegally parked vehicle
-111160                                Tree Care and Removal
-Name: Category, dtype: object"
-1081,"[np.float64(43.0469212999999), np.float64(43.0488885999999)]","[np.float64(-76.1504220000001), np.float64(-76.14790400000011)]",90,3755,29,31,5,2,5,8,9,1,"931                                Graffiti on Private Land
-2158                                  Tree Care and Removal
-2766      Other Streets, Sidewalks & Transportation Concern
-3209      Please use this space to provide feedback to t...
-3941                                Traffic & Parking Signs
-                                ...                        
-105010                         Other Sewer-related Concerns
-106010                         Other Sewer-related Concerns
-106424        Large or Bulk Items- Setout notification only
-110153                         Report Litter on Public Land
-111406                             Graffiti on Private Land
-Name: Category, Length: 90, dtype: object"
-1082,"[np.float64(43.0488885999999), np.float64(43.050855899999895)]","[np.float64(-76.1504220000001), np.float64(-76.14790400000011)]",243,2423,48,75,27,7,26,25,22,4,"919        Other Housing & Property Maintenance Concern
-926                                       Street Lights
-1421                                   Park Maintenance
-1929                                      Parking Meter
-2059                       Report Litter on Public Land
-                              ...                      
-108740    Large or Bulk Items- Setout notification only
-110021                                    Street Lights
-111155                                 Park Maintenance
-111394     Other Housing & Property Maintenance Concern
-111401                                    Street Lights
-Name: Category, Length: 243, dtype: object"
-1130,"[np.float64(43.044953999999905), np.float64(43.0469212999999)]","[np.float64(-76.14790400000011), np.float64(-76.14538600000012)]",16,1346,4,4,1,3,1,0,3,0,"1425      Please use this space to provide feedback to t...
-2595                            Home & Building Maintenance
-3282                                              Sidewalks
-19467                 Report a Skipped Weekly Trash Pick Up
-21682     Please use this space to provide feedback to t...
-23867     Request Construction Debris Pick Up (May and S...
-25528     Report internal structural damage of a Catch B...
-29665                                         Street Lights
-30141                               Traffic & Parking Signs
-51462                                       Illegal Setouts
-52695                                         Parking Meter
-93167                             Sewer Back-ups (INTERNAL)
-93562                          Report Litter on Public Land
-104677                         Other Sewer-related Concerns
-107259    Other Streets, Sidewalks & Transportation Concern
-111159    Please use this space to provide feedback to t...
-Name: Category, dtype: object"
-1277,"[np.float64(43.039052099999914), np.float64(43.04101939999991)]","[np.float64(-76.14035000000013), np.float64(-76.13783200000013)]",7,1010,4,1,0,0,1,0,1,0,"19139                   Pavement Markings
-22982                     Illegal Setouts
-56271           Sewer Back-ups (INTERNAL)
-74724    Other Parking & Vehicles Concern
-83681                       Street Lights
-87735                     Traffic Signals
-88759                     Traffic Signals
-Name: Category, dtype: object"
-1328,"[np.float64(43.04101939999991), np.float64(43.04298669999991)]","[np.float64(-76.13783200000013), np.float64(-76.13531400000014)]",97,3151,32,23,6,0,5,2,29,0,"580                         Sewer Back-ups (INTERNAL)
-581                         Sewer Back-ups (INTERNAL)
-1559      Report Trash/Debris Outside a Home/Building
-2032                          Traffic & Parking Signs
-5379                                 Report a Pothole
-                             ...                     
-108999                   Other Sewer-related Concerns
-110927                                     Snow & Ice
-112344                      Sewer Back-ups (INTERNAL)
-112352                      Sewer Back-ups (INTERNAL)
-112740    Report Trash/Debris Outside a Home/Building
-Name: Category, Length: 97, dtype: object"
-1330,"[np.float64(43.044953999999905), np.float64(43.0469212999999)]","[np.float64(-76.13783200000013), np.float64(-76.13531400000014)]",40,1037,15,7,0,0,2,3,10,0,"847                                 Traffic & Parking Signs
-3068                                  Tree Care and Removal
-4285                                        Illegal Setouts
-10247                             Sewer Back-ups (INTERNAL)
-10375                          Other Sewer-related Concerns
-10993                                      Report a Pothole
-12319                          Other Sewer-related Concerns
-12583                                       Traffic Signals
-14714                                      Report a Pothole
-15060                             Sewer Back-ups (INTERNAL)
-15607                             Sewer Back-ups (INTERNAL)
-22143                          Other Sewer-related Concerns
-24145                                 Tree Care and Removal
-27849                          Report Litter on Public Land
-28504                                              Potholes
-28968                                              Potholes
-29109                               Traffic & Parking Signs
-33569                                 Tree Care and Removal
-41965                      Health, Safety & Social Services
-43470     Other Streets, Sidewalks & Transportation Concern
-48952                             Sewer Back-ups (INTERNAL)
-50885                             Sewer Back-ups (INTERNAL)
-51444                                              Potholes
-60024                                         Parking Meter
-68058                                              Potholes
-84108                          Other Sewer-related Concerns
-88030                                     Pavement Markings
-93318                                      Report a Pothole
-95075                               Graffiti on Public Land
-95940                               Traffic & Parking Signs
-96295                               Graffiti on Public Land
-98260                                      Report a Pothole
-99194                             Sewer Back-ups (INTERNAL)
-99362                               Graffiti on Public Land
-100026                                      Traffic Signals
-108750                                     Report a Pothole
-108877                                        Parking Meter
-110846                         Report Litter on Public Land
-111726                              Traffic & Parking Signs
-112664                         Report Litter on Public Land
-Name: Category, dtype: object"
-1378,"[np.float64(43.04101939999991), np.float64(43.04298669999991)]","[np.float64(-76.13531400000014), np.float64(-76.13279600000014)]",33,6298,13,4,0,0,5,1,10,0,"1821               Sewer Back-ups (INTERNAL)
-2244             Report an Abandoned Vehicle
-7274                               Sidewalks
-10188              Sewer Back-ups (INTERNAL)
-14914              Sewer Back-ups (INTERNAL)
-16929               Trash Can on Public Land
-17408     Report an illegally parked vehicle
-23563                  Tree Care and Removal
-29547                        Illegal Setouts
-30381                Traffic & Parking Signs
-34461           Other Sewer-related Concerns
-34508                 Water-related Concerns
-34901           Other Sewer-related Concerns
-40175                          Parking Meter
-41585               Trash Can on Public Land
-42244                      Pavement Markings
-57489              Sewer Back-ups (INTERNAL)
-58585                          Parking Meter
-58994                              Sidewalks
-60600           Other Sewer-related Concerns
-65372          Report Litter on Private Land
-75052                               Potholes
-75290                               Potholes
-81468              Sewer Back-ups (INTERNAL)
-83020                          Street Lights
-83149                          Street Lights
-90101                          Parking Meter
-93996                             Snow & Ice
-103036               Traffic & Parking Signs
-109110                             Sidewalks
-109279                             Sidewalks
-110204                            Snow & Ice
-111027             Sewer Back-ups (INTERNAL)
-Name: Category, dtype: object"
-1427,"[np.float64(43.039052099999914), np.float64(43.04101939999991)]","[np.float64(-76.13279600000014), np.float64(-76.13027800000015)]",5,3512,4,0,0,0,0,0,1,0,"3052                   Traffic Signals
-42240          Traffic & Parking Signs
-62383                  Traffic Signals
-88418                  Traffic Signals
-107135    Other Sewer-related Concerns
-Name: Category, dtype: object"
-1428,"[np.float64(43.04101939999991), np.float64(43.04298669999991)]","[np.float64(-76.13279600000014), np.float64(-76.13027800000015)]",18,1467,5,1,0,0,1,2,7,0,"10393                          Other Sewer-related Concerns
-10872                             Sewer Back-ups (INTERNAL)
-14182                          Other Sewer-related Concerns
-15063                 Carts-Wrong Number of Carts Delivered
-20137                                 Tree Care and Removal
-24430                               Traffic & Parking Signs
-27560                                   Weekly Trash Pickup
-29961                 Carts-Wrong Number of Carts Delivered
-30225                                      Park Maintenance
-40633     Other Streets, Sidewalks & Transportation Concern
-46373                          Other Sewer-related Concerns
-47823                          Other Sewer-related Concerns
-72349                                       Traffic Signals
-72506                                              Potholes
-78266                             Sewer Back-ups (INTERNAL)
-79045                             Sewer Back-ups (INTERNAL)
-88666     To report an illegally parked vehicle, please ...
-110818                                        Street Lights
-Name: Category, dtype: object"
-1429,"[np.float64(43.04298669999991), np.float64(43.044953999999905)]","[np.float64(-76.13279600000014), np.float64(-76.13027800000015)]",24,1484,6,9,0,0,0,0,4,0,"13287                                       Cart Stolen
-13324                                  Report a Pothole
-15201                                  Report a Pothole
-17732                         Sewer Back-ups (INTERNAL)
-22115                                       Cart Stolen
-24858                                     Cart Feedback
-29084                      Other Sewer-related Concerns
-33725                               Weekly Trash Pickup
-39218                                       Cart Stolen
-39224                                       Cart Stolen
-44187                                          Potholes
-48289                        Street Sweeping (INTERNAL)
-59076         Recycling (pick up that has been skipped)
-59302     Large or Bulk Items- Setout notification only
-61066                           Traffic & Parking Signs
-73519                                   Illegal Setouts
-73596                                   Illegal Setouts
-73611                                   Illegal Setouts
-73768                                   Illegal Setouts
-81562                      Other Sewer-related Concerns
-84712                                   Illegal Setouts
-89939                                          Potholes
-104836                     Other Sewer-related Concerns
-110828                                    Street Lights
-Name: Category, dtype: object"
-1430,"[np.float64(43.044953999999905), np.float64(43.0469212999999)]","[np.float64(-76.13279600000014), np.float64(-76.13027800000015)]",118,2693,21,48,4,0,5,1,23,2,"569                               Sewer Back-ups (INTERNAL)
-1142                                        Traffic Signals
-1156                                Traffic & Parking Signs
-3756                                             Yard Waste
-3843      Other Streets, Sidewalks & Transportation Concern
-                                ...                        
-110422                   Report a Skipped Recycling Pick Up
-112077                   Report a Skipped Recycling Pick Up
-112177                                      Traffic Signals
-112290                              Traffic & Parking Signs
-113056                            Sewer Back-ups (INTERNAL)
-Name: Category, Length: 118, dtype: object"
-1476,"[np.float64(43.03708479999992), np.float64(43.039052099999914)]","[np.float64(-76.13027800000015), np.float64(-76.12776000000015)]",68,1521,2,44,14,0,1,0,2,2,"18                          Sewer Back-ups (INTERNAL)
-5915                                  Illegal Setouts
-8978                    Report Litter on Private Land
-9153                     Other Sewer-related Concerns
-13109                                     Cart Stolen
-                             ...                     
-97788     Report Trash/Debris Outside a Home/Building
-97908                   Report Litter on Private Land
-99895     Report Trash/Debris Outside a Home/Building
-104493                                Illegal Setouts
-108911                                Illegal Setouts
-Name: Category, Length: 68, dtype: object"
+773,"[np.float64(43.031182899999926), np.float64(43.03315019999992)]","[np.float64(-76.16553000000008), np.float64(-76.16301200000008)]",191,1633,9,123,19,0,0,8,29,0,"['Report a Skipped Weekly Trash Pick Up' 'Sewer Back-ups (INTERNAL)'
+ 'Report a Skipped Weekly Trash Pick Up'
+ 'Large or Bulk Items- Setout notification only'
+ 'Sewer Back-ups (INTERNAL)' 'Report Overgrown Grass on Private Land'
+ 'Report Trash/Debris Outside a Home/Building' 'Sanitation Carts'
+ 'Report Overgrown Grass on Private Land'
+ 'Request Construction Debris Pick Up (May and September Only)'
+ 'Request Construction Debris Pick Up (May and September Only)'
+ 'Report a Skipped Bulk Pick Up'
+ 'Large or Bulk Items- Setout notification only' 'Illegal Setouts'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only' 'Tree Care and Removal'
+ 'Report Overgrown Grass on Private Land' 'Tires'
+ 'Report a Skipped Weekly Trash Pick Up' 'Tires'
+ 'Property Damage- INTERNAL' 'Property Damage- INTERNAL'
+ 'Report Overgrown Grass on Private Land'
+ 'Request Construction Debris Pick Up (May and September Only)'
+ 'Sewer Back-ups (INTERNAL)' 'Second Cart Request'
+ 'Request Construction Debris Pick Up (May and September Only)'
+ 'Cart Broken'
+ 'Request Construction Debris Pick Up (May and September Only)'
+ 'Report a Skipped Bulk Pick Up' 'Sidewalks'
+ 'Curb/Sidewalk Removal Concerns' 'Sidewalks' 'Construction Debris'
+ 'Other Sewer-related Concerns' 'Other Sewer-related Concerns'
+ 'Overgrown Grass in Public Spaces' 'Tires' 'Tires'
+ 'Sewer Back-ups (INTERNAL)' 'Street Lights' 'Sewer Back-ups (INTERNAL)'
+ 'Illegal Setouts' 'Yard Waste' 'Tree Care and Removal' 'Tires' 'Tires'
+ 'Sewer Back-ups (INTERNAL)' 'Tires' 'Sewer Back-ups (INTERNAL)'
+ 'Sewer Back-ups (INTERNAL)' 'Illegal Setouts'
+ 'Report Overgrown Grass on Private Land' 'Yard Waste' 'Recycling'
+ 'Sewer Back-ups (INTERNAL)' 'Large or Bulk Items- Skipped Pickup'
+ 'Sewer Back-ups (INTERNAL)'
+ 'Large or Bulk Items- Setout notification only'
+ 'Report Litter on Private Land'
+ 'Large or Bulk Items- Setout notification only' 'Weekly Trash Pickup'
+ 'Large or Bulk Items- Setout notification only' 'Weekly Trash Pickup'
+ 'Weekly Trash Pickup' 'Overgrown Grass in Public Spaces'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only' 'Tires'
+ 'Report Overgrown Grass on Private Land'
+ 'Large or Bulk Items- Setout notification only'
+ 'Other Sewer-related Concerns' 'Tires'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only' 'Sidewalks'
+ 'Large or Bulk Items- Setout notification only' 'Illegal Setouts' 'Tires'
+ 'Large or Bulk Items- Skipped Pickup' 'Construction Debris' 'Tires'
+ 'Large or Bulk Items- Setout notification only' 'Construction Debris'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only'
+ 'Report Overgrown Grass on Private Land'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only' 'Construction Debris'
+ 'Weekly Trash Pickup' 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only' 'Recycling'
+ 'Illegal Setouts' 'Construction Debris'
+ 'Large or Bulk Items- Skipped Pickup'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only' 'Recycling' 'Recycling'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only'
+ 'Other Sewer-related Concerns' 'Sewer Back-ups (INTERNAL)'
+ 'Large or Bulk Items- Setout notification only' 'Illegal Setouts'
+ 'Large or Bulk Items- Setout notification only' 'Illegal Setouts'
+ 'Weekly Trash Pickup' 'Large or Bulk Items- Setout notification only'
+ 'Weekly Trash Pickup' 'Sewer Back-ups (INTERNAL)'
+ 'Sewer Back-ups (INTERNAL)' 'Sewer Back-ups (INTERNAL)'
+ 'Other Garbage & Recycling' 'Sewer Back-ups (INTERNAL)'
+ 'Home & Building Maintenance' 'Illegal Setouts'
+ 'Other Garbage & Recycling'
+ 'Large or Bulk Items- Setout notification only'
+ 'Sewer Back-ups (INTERNAL)' 'Illegal Setouts' 'Illegal Setouts'
+ 'Sewer Back-ups (INTERNAL)' 'Other Sewer-related Concerns'
+ 'Sewer Back-ups (INTERNAL)' 'Recycling' 'Illegal Setouts'
+ 'Home & Building Maintenance' 'Illegal Setouts' 'Illegal Setouts'
+ 'Sewer Back-ups (INTERNAL)'
+ 'Large or Bulk Items- Setout notification only' 'Tree Care and Removal'
+ 'Weekly Trash Pickup' 'Large or Bulk Items- Setout notification only'
+ 'Weekly Trash Pickup' 'Other Sewer-related Concerns' 'Illegal Setouts'
+ 'Construction Debris' 'Large or Bulk Items- Setout notification only'
+ 'Weekly Trash Pickup' 'Traffic & Parking Signs'
+ 'Report Trash/Debris Outside a Home/Building'
+ 'Report a Skipped Weekly Trash Pick Up'
+ 'Request Construction Debris Pick Up (May and September Only)'
+ 'Report Overgrown Grass on Private Land' 'Report Litter on Public Land'
+ 'Sidewalks' 'Illegal setout/sanitation violation dispute'
+ 'Report a Skipped Bulk Pick Up' 'Sewer Back-ups (INTERNAL)' 'Tires'
+ 'Report a Pothole' 'Property Damage- INTERNAL'
+ 'Report a Skipped Weekly Trash Pick Up'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only' 'Illegal Setouts'
+ 'Cart Stolen' 'Report Trash/Debris Outside a Home/Building' 'Sidewalks'
+ 'Sewer Back-ups (INTERNAL)' 'Report Trash/Debris Outside a Home/Building'
+ 'Report Overgrown Grass in Public Spaces' 'Sewer Back-ups (INTERNAL)'
+ 'Report Overgrown Grass in Public Spaces'
+ 'Report Overgrown Grass on Private Land'
+ 'Large or Bulk Items- Setout notification only'
+ 'Report Overgrown Grass in Public Spaces'
+ 'Report Overgrown Grass on Private Land' 'Report Litter on Public Land'
+ 'Report a Skipped Weekly Trash Pick Up'
+ 'Report a Skipped Weekly Trash Pick Up' 'Sewer Back-ups (INTERNAL)']"
+931,"[np.float64(43.0469212999999), np.float64(43.0488885999999)]","[np.float64(-76.15797600000009), np.float64(-76.1554580000001)]",125,1607,29,25,5,0,8,22,34,1,"['Graffiti on Private Land' 'Pavement Markings'
+ 'Other Sewer-related Concerns' 'Sanitation Exempt Skipped'
+ 'Other Sewer-related Concerns' 'Tree Care and Removal' 'Park Maintenance'
+ 'Park Maintenance' 'Sewer Back-ups (INTERNAL)' 'Street Lights'
+ 'Street Lights' 'Other Parking & Vehicles Concern'
+ 'Tree Care and Removal' 'Trash Can on Public Land' 'Sidewalks'
+ 'Tree Care and Removal' 'Traffic & Parking Signs'
+ 'Home & Building Maintenance' 'Traffic Signals' 'Sidewalks'
+ 'Park Maintenance' 'Park Maintenance' 'Park Maintenance'
+ 'Graffiti on Public Land'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Trash Can on Public Land' 'Report Litter on Public Land'
+ 'Report Litter on Public Land' 'Report Litter on Public Land'
+ 'Other Parks, Trees & Public Utilities Concern'
+ 'Sewer Back-ups (INTERNAL)' 'Trash Can on Public Land'
+ 'Graffiti on Public Land' 'Overgrown Grass in Public Spaces'
+ 'Sewer Back-ups (INTERNAL)' 'Sewer Back-ups (INTERNAL)'
+ 'Sewer Back-ups (INTERNAL)' 'Traffic & Parking Signs' 'Potholes'
+ 'Report Litter on Public Land' 'Traffic Signals' 'Park Maintenance'
+ 'Park Maintenance' 'Sewer Back-ups (INTERNAL)'
+ 'Sewer Back-ups (INTERNAL)' 'Report Litter on Private Land'
+ 'Tree Care and Removal' 'Other Housing & Property Maintenance Concern'
+ 'Graffiti on Private Land' 'Other Sewer-related Concerns'
+ 'Sewer Back-ups (INTERNAL)'
+ 'Other Housing & Property Maintenance Concern'
+ 'Report Litter on Public Land' 'Sewer Back-ups (INTERNAL)'
+ 'Sewer Back-ups (INTERNAL)' 'Sidewalks' 'Potholes' 'Parking Meter'
+ 'Parking Meter' 'Potholes' 'Park Maintenance' 'Sewer Back-ups (INTERNAL)'
+ 'Park Maintenance' 'Graffiti on Public Land'
+ 'Overgrown Grass in Public Spaces' 'Sewer Back-ups (INTERNAL)'
+ 'Sidewalks' 'Park Maintenance' 'Parking Meter' 'Potholes'
+ 'Park Maintenance' 'Sidewalks' 'Potholes' 'Traffic & Parking Signs'
+ 'Other Parks, Trees & Public Utilities Concern' 'Sidewalks'
+ 'Report Litter on Public Land'
+ 'Report Trash/Debris Outside a Home/Building' 'Sewer Back-ups (INTERNAL)'
+ 'Parking Meter' 'Street Lights' 'Street Lights' 'Potholes' 'Potholes'
+ 'Parking Meter' 'Other Animal-related Concern'
+ 'Sewer Back-ups (INTERNAL)' 'Report Litter on Private Land'
+ 'Sewer Back-ups (INTERNAL)' 'Sewer Back-ups (INTERNAL)'
+ 'Sewer Back-ups (INTERNAL)'
+ 'Large or Bulk Items- Setout notification only' 'Tree Care and Removal'
+ 'Traffic & Parking Signs' 'Sidewalks'
+ 'Other Housing & Property Maintenance Concern'
+ 'Other Sewer-related Concerns' 'Graffiti on Private Land' 'Parking Meter'
+ 'Sidewalks' 'Other Parking & Vehicles Concern' 'Trash Can on Public Land'
+ 'Tree Care and Removal' 'Sewer Back-ups (INTERNAL)'
+ 'Report Litter on Public Land' 'Report Overgrown Grass in Public Spaces'
+ 'Sewer Back-ups (INTERNAL)' 'Other Sewer-related Concerns'
+ 'Other Sewer-related Concerns' 'Street Lights' 'Water-related Concerns'
+ 'Traffic Signals' 'Sewer Back-ups (INTERNAL)' 'Illegal Setouts'
+ 'Other Sewer-related Concerns' 'Other Sewer-related Concerns'
+ 'Sewer Back-ups (INTERNAL)' 'Sewer Back-ups (INTERNAL)'
+ 'Sewer Back-ups (INTERNAL)' 'Graffiti on Private Land'
+ 'Traffic & Parking Signs' 'Report Litter on Public Land'
+ 'Other Sewer-related Concerns' 'Other Sewer-related Concerns'
+ 'Graffiti on Private Land']"
+980,"[np.float64(43.044953999999905), np.float64(43.0469212999999)]","[np.float64(-76.1554580000001), np.float64(-76.1529400000001)]",31,1123,10,5,7,1,3,1,4,0,"['Water-related Concerns' 'Report a Pothole' 'Sidewalks'
+ 'Other Housing & Property Maintenance Concern'
+ 'Report Litter on Public Land'
+ 'Report external dirt/debris blocking a Catch Basin/Storm Drain'
+ 'Report Litter on Public Land' 'Report Litter on Public Land'
+ 'Report Litter on Public Land' 'Report Litter on Public Land' 'Sidewalks'
+ 'To report an illegally parked vehicle, please call the Syracuse Police Ordinance at 315-448-8650. If this is an emergency, please call 911. Do NOT submit requests to Cityline.'
+ 'Please use this space to provide feedback to the City'
+ 'Pavement Markings' 'Sidewalks'
+ 'Other Housing & Property Maintenance Concern'
+ 'Report Overgrown Grass on Private Land' 'Other Sewer-related Concerns'
+ 'To report an illegally parked vehicle, please call the Syracuse Police Ordinance at 315-448-8650. If this is an emergency, please call 911. Do NOT submit requests to Cityline.'
+ 'To report an illegally parked vehicle, please call the Syracuse Police Ordinance at 315-448-8650. If this is an emergency, please call 911. Do NOT submit requests to Cityline.'
+ 'Potholes' 'Other Parks, Trees & Public Utilities Concern'
+ 'Other Housing & Property Maintenance Concern'
+ 'Report Overgrown Grass on Private Land'
+ 'Report Overgrown Grass on Private Land' 'Snow & Ice'
+ 'Home & Building Maintenance' 'Potholes' 'Potholes' 'Sidewalks'
+ 'Report external dirt/debris blocking a Catch Basin/Storm Drain']"
+981,"[np.float64(43.0469212999999), np.float64(43.0488885999999)]","[np.float64(-76.1554580000001), np.float64(-76.1529400000001)]",188,1933,52,53,15,3,10,13,35,0,"['Other Housing & Property Maintenance Concern'
+ 'Other Housing & Property Maintenance Concern' 'Parking Meter'
+ 'Please use this space to provide feedback to the City'
+ 'Report Litter on Public Land' 'Report Litter on Public Land'
+ 'Report Litter on Public Land' 'Report a Pothole'
+ 'Sewer Back-ups (INTERNAL)'
+ 'Large or Bulk Items- Setout notification only' 'Illegal Setouts'
+ 'Report Overgrown Grass in Public Spaces'
+ 'Health, Safety & Social Services' 'Report Litter on Public Land'
+ 'Tree Care and Removal' 'Graffiti on Private Land'
+ 'Tree Care and Removal' 'Street Lights' 'Report a Pothole'
+ 'Other Sewer-related Concerns' 'Report Litter on Public Land'
+ 'Other Housing & Property Maintenance Concern'
+ 'Sewer Back-ups (INTERNAL)' 'Traffic & Parking Signs'
+ 'Sewer Back-ups (INTERNAL)' 'Trash Can on Public Land'
+ 'Other Sewer-related Concerns' 'Traffic & Parking Signs' 'Street Lights'
+ 'Sidewalks' 'Report Litter on Public Land' 'Trash Can on Public Land'
+ 'Trash Can on Public Land' 'Report Litter on Public Land'
+ 'Trash Can on Public Land' 'Traffic & Parking Signs'
+ 'Graffiti on Public Land' 'Traffic & Parking Signs'
+ 'Other Sewer-related Concerns' 'Yard Waste'
+ 'Report Litter on Public Land' 'Report Litter on Public Land'
+ 'Other Streets, Sidewalks & Transportation Concern' 'Illegal Setouts'
+ 'Report Litter on Public Land'
+ 'Other Housing & Property Maintenance Concern'
+ 'Please use this space to provide feedback to the City'
+ 'Other Streets, Sidewalks & Transportation Concern' 'Illegal Setouts'
+ 'Other Sewer-related Concerns' 'Sidewalks' 'Illegal Setouts' 'Potholes'
+ 'Potholes' 'Tree Care and Removal' 'Pavement Markings' 'Snow & Ice'
+ 'Report Litter on Public Land' 'Sewer Back-ups (INTERNAL)'
+ 'Illegal Setouts'
+ 'Request a free street tree planting (City of Syracuse Property Owners Only)'
+ 'Traffic Signals' 'Other Sewer-related Concerns' 'Tree Care and Removal'
+ 'Sewer Back-ups (INTERNAL)' 'Parking Meter'
+ 'Health, Safety & Social Services' 'Traffic Signals'
+ 'Graffiti on Private Land' 'Health, Safety & Social Services'
+ 'Traffic & Parking Signs' 'Report Litter on Public Land' 'Sidewalks'
+ 'Report Litter on Public Land' 'Other Sewer-related Concerns' 'Potholes'
+ 'Sewer Back-ups (INTERNAL)' 'Street Lights'
+ 'Report Litter on Private Land' 'Other Sewer-related Concerns'
+ 'Report Trash/Debris Outside a Home/Building'
+ 'Other Sewer-related Concerns' 'Trash Can on Public Land'
+ 'Sewer Back-ups (INTERNAL)' 'Traffic Signals'
+ 'Other Housing & Property Maintenance Concern' 'Tree Care and Removal'
+ 'Street Lights' 'Report Litter on Private Land' 'Sidewalks'
+ 'Illegal Setouts' 'Illegal Setouts'
+ 'Report Trash/Debris Outside a Home/Building' 'Parking Meter'
+ 'Park Maintenance' 'Report Litter on Public Land' 'Illegal Setouts'
+ 'Street Lights' 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only'
+ 'Other Parks, Trees & Public Utilities Concern' 'Parking Meter'
+ 'Report Litter on Public Land' 'Other Parking & Vehicles Concern'
+ 'Other Sewer-related Concerns'
+ 'Large or Bulk Items- Setout notification only'
+ 'Overgrown Grass in Public Spaces' 'Parking Meter'
+ 'Traffic & Parking Signs' 'Graffiti on Private Land'
+ 'Sewer Back-ups (INTERNAL)' 'Sewer Back-ups (INTERNAL)' 'Parking Meter'
+ 'Street Lights' 'Report Trash/Debris Outside a Home/Building' 'Sidewalks'
+ 'Report Trash/Debris Outside a Home/Building'
+ 'Report Trash/Debris Outside a Home/Building' 'Sidewalks'
+ 'Report Trash/Debris Outside a Home/Building' 'Parking Meter' 'Sidewalks'
+ 'Sewer Back-ups (INTERNAL)' 'Report Litter on Public Land'
+ 'Report Litter on Public Land' 'Snow & Ice'
+ 'Other Sewer-related Concerns' 'Sewer Back-ups (INTERNAL)'
+ 'Other Water & Sewage Concern' 'Potholes' 'Potholes' 'Potholes'
+ 'Sewer Back-ups (INTERNAL)' 'Sewer Back-ups (INTERNAL)'
+ 'Other Sewer-related Concerns' 'Other Water & Sewage Concern'
+ 'Sewer Back-ups (INTERNAL)' 'Other Sewer-related Concerns'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Health, Safety & Social Services' 'Illegal Setouts'
+ 'Other Streets, Sidewalks & Transportation Concern' 'Sidewalks'
+ 'Street Lights' 'Illegal Setouts' 'Potholes' 'Graffiti on Private Land'
+ 'Sewer Back-ups (INTERNAL)' 'Trash Can on Public Land' 'Illegal Setouts'
+ 'Trash Can on Public Land' 'Parking Meter' 'Sidewalks' 'Park Maintenance'
+ 'Tree Care and Removal' 'Other Housing & Property Maintenance Concern'
+ 'Illegal Setouts' 'Report Trash/Debris Outside a Home/Building'
+ 'Sidewalks' 'Sidewalks' 'Other Sewer-related Concerns' 'Street Lights'
+ 'Other Sewer-related Concerns' 'Report Litter on Public Land'
+ 'Other Sewer-related Concerns'
+ 'Other Parks, Trees & Public Utilities Concern'
+ 'Report Litter on Public Land' 'Report a Pothole'
+ 'Sewer Back-ups (INTERNAL)' 'Sewer Back-ups (INTERNAL)'
+ 'Traffic & Parking Signs' 'Sidewalks' 'Traffic Signals' 'Sidewalks'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Traffic & Parking Signs'
+ 'Other Streets, Sidewalks & Transportation Concern' 'Street Lights'
+ 'Cart Feedback' 'Sewer Back-ups (INTERNAL)'
+ 'Health, Safety & Social Services' 'Parking Meter'
+ 'Report Litter on Public Land' 'Report Litter on Public Land'
+ 'Other Housing & Property Maintenance Concern'
+ 'Please use this space to provide feedback to the City'
+ 'Report Litter on Public Land'
+ 'Other Housing & Property Maintenance Concern']"
+982,"[np.float64(43.0488885999999), np.float64(43.050855899999895)]","[np.float64(-76.1554580000001), np.float64(-76.1529400000001)]",70,2284,24,8,0,0,4,22,9,2,"['Street Lights' 'Tree Care and Removal' 'Tree Care and Removal'
+ 'Report Litter on Public Land' 'Other Sewer-related Concerns'
+ 'Tree Care and Removal' 'Tree Care and Removal' 'Report a Pothole'
+ 'Sidewalks' 'Report Roadkill' 'Report a Pothole' 'Water-related Concerns'
+ 'Report Litter on Public Land' 'Tree Care and Removal'
+ 'Tree Care and Removal' 'Tree Care and Removal'
+ 'Other Parks, Trees & Public Utilities Concern'
+ 'Report internal structural damage of a Catch Basin/Storm Drain'
+ 'Tree Care and Removal' 'Report Litter on Public Land'
+ 'Graffiti on Public Land' 'Tree Care and Removal' 'Sidewalks'
+ 'Report Overgrowth on Public land' 'Sidewalks'
+ 'Other Parks, Trees & Public Utilities Concern' 'Tree Care and Removal'
+ 'Report Litter on Public Land' 'Graffiti on Public Land'
+ 'Tree Care and Removal' 'Sewer Back-ups (INTERNAL)'
+ 'Tree Care and Removal' 'Other Parking & Vehicles Concern'
+ 'Other Parking & Vehicles Concern' 'Snow & Ice' 'Illegal Setouts'
+ 'Street Lights' 'Street Lights' 'Parking Meter' 'Trash Can in Parks'
+ 'Traffic Signals' 'Street Lights' 'Tree Care and Removal' 'Roadkill'
+ 'Snow & Ice' 'Snow & Ice' 'Street Lights' 'Sewer Back-ups (INTERNAL)'
+ 'Other Parks, Trees & Public Utilities Concern' 'Sidewalks' 'Potholes'
+ 'Other Parks, Trees & Public Utilities Concern' 'Street Lights'
+ 'Other Parks, Trees & Public Utilities Concern' 'Street Lights'
+ 'Sewer Back-ups (INTERNAL)' 'Street Lights'
+ 'Other Health, Safety & Social Services Concern'
+ 'Other Streets, Sidewalks & Transportation Concern' 'Potholes' 'Potholes'
+ 'Traffic & Parking Signs' 'Other Sewer-related Concerns'
+ 'Report external dirt/debris blocking a Catch Basin/Storm Drain'
+ 'Other Parking & Vehicles Concern' 'Tree Care and Removal' 'Sidewalks'
+ 'Other Parks, Trees & Public Utilities Concern'
+ 'Graffiti on Private Land' 'Other Sewer-related Concerns']"
+1030,"[np.float64(43.044953999999905), np.float64(43.0469212999999)]","[np.float64(-76.1529400000001), np.float64(-76.1504220000001)]",64,3685,21,11,4,1,3,5,15,0,"['Other Housing & Property Maintenance Concern' 'Traffic Signals'
+ 'Pavement Markings' 'Sewer Back-ups (INTERNAL)' 'Tree Care and Removal'
+ 'Other Sewer-related Concerns' 'Traffic & Parking Signs'
+ 'Other Sewer-related Concerns'
+ 'Other Housing & Property Maintenance Concern'
+ 'Sewer Back-ups (INTERNAL)' 'Other Sewer-related Concerns'
+ 'Traffic Signals' 'Illegal Setouts' 'Trash Can on Public Land'
+ 'Sewer Back-ups (INTERNAL)' 'Park Maintenance'
+ 'Other Sewer-related Concerns' 'Parking Meter'
+ 'Sewer Back-ups (INTERNAL)' 'Sewer Back-ups (INTERNAL)'
+ 'Other Housing & Property Maintenance Concern'
+ 'Please use this space to provide feedback to the City'
+ 'Report Litter on Public Land'
+ 'Report internal clogging of a Catch Basin/ Storm Drain'
+ 'Tree Care and Removal' 'Trash Can on Public Land'
+ 'Trash Can on Public Land' 'Report Litter on Public Land'
+ 'Health, Safety & Social Services' 'Other Sewer-related Concerns'
+ 'Sidewalks' 'Parking Meter' 'Illegal Setouts' 'Traffic & Parking Signs'
+ 'Sidewalks' 'Other Parks, Trees & Public Utilities Concern'
+ 'Illegal Setouts' 'Sidewalks' 'Street Lights' 'Street Lights' 'Potholes'
+ 'Sewer Back-ups (INTERNAL)' 'Street Lights' 'Street Lights'
+ 'Street Lights' 'Street Lights' 'Sewer Back-ups (INTERNAL)'
+ 'Other Sewer-related Concerns' 'Other Sewer-related Concerns'
+ 'Tree Care and Removal' 'Traffic & Parking Signs' 'Street Lights'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Trash Can on Public Land' 'Traffic & Parking Signs'
+ 'Other Streets, Sidewalks & Transportation Concern' 'Parking Meter'
+ 'Sidewalks' 'Other Streets, Sidewalks & Transportation Concern'
+ 'Report Litter on Public Land' 'Street Sweeping (INTERNAL)'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Other Housing & Property Maintenance Concern' 'Traffic Signals']"
+1031,"[np.float64(43.0469212999999), np.float64(43.0488885999999)]","[np.float64(-76.1529400000001), np.float64(-76.1504220000001)]",165,5132,53,52,9,0,15,19,14,1,"['Other Housing & Property Maintenance Concern'
+ 'Report Litter on Public Land' 'Parking Meter'
+ 'Report Litter on Public Land' 'Report a Pothole'
+ 'Other Sewer-related Concerns' 'Pavement Markings'
+ 'Report Trash/Debris Outside a Home/Building' 'Tree Care and Removal'
+ 'Sidewalks' 'Other Sewer-related Concerns' 'Yard Waste'
+ 'Tree Care and Removal' 'Other Sewer-related Concerns'
+ 'Tree Care and Removal' 'Tree Care and Removal' 'Tree Care and Removal'
+ 'Report Trash/Debris Outside a Home/Building'
+ 'Other Sewer-related Concerns' 'Water-related Concerns'
+ 'Report Litter on Public Land' 'Traffic Signals' 'Park Maintenance'
+ 'Report Litter on Public Land' 'Sidewalks' 'Traffic Signals'
+ 'Traffic Signals' 'Traffic Signals' 'Traffic Signals' 'Traffic Signals'
+ 'Report an illegally parked vehicle' 'Report a Pothole' 'Traffic Signals'
+ 'Report Litter on Public Land'
+ 'Other Streets, Sidewalks & Transportation Concern' 'Report Roadkill'
+ 'Report Litter on Private Land' 'Report an illegally parked vehicle'
+ 'Report an illegally parked vehicle' 'Water-related Concerns'
+ 'Report Litter on Public Land' 'Trash Can on Public Land'
+ 'Trash Can on Public Land' 'Report Litter on Public Land'
+ 'Tree Care and Removal' 'Trash Can on Public Land'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Trash Can on Public Land' 'Report a Skipped Bulk Pick Up'
+ 'Report Litter on Public Land' 'Report Litter on Public Land'
+ 'Illegal Setouts' 'Vacant Buildings' 'Trash Can on Public Land'
+ 'Report Litter on Public Land' 'Report Litter on Public Land'
+ 'Illegal Setouts' 'Traffic Signals' 'Tree Care and Removal'
+ 'Report Litter on Public Land' 'Report Litter on Public Land'
+ 'Illegal Setouts' 'Traffic Signals' 'Sidewalks'
+ 'Other Streets, Sidewalks & Transportation Concern' 'Park Maintenance'
+ 'Illegal Setouts' 'Illegal Setouts' 'Illegal Setouts' 'Street Lights'
+ 'To report an illegally parked vehicle, please call the Syracuse Police Ordinance at 315-448-8650. If this is an emergency, please call 911. Do NOT submit requests to Cityline.'
+ 'Sewer Back-ups (INTERNAL)' 'Overgrown Grass in Public Spaces'
+ 'Street Lights' 'Other Parking & Vehicles Concern' 'Potholes'
+ 'Tree Care and Removal' 'Weekly Trash Pickup' 'Traffic Signals'
+ 'Traffic Signals' 'Traffic Signals'
+ 'Report Overgrown Grass on Private Land'
+ 'Report Trash/Debris Outside a Home/Building' 'Trash Can on Public Land'
+ 'Other Streets, Sidewalks & Transportation Concern' 'Parking Meter'
+ 'Trash Can on Public Land' 'Sewer Back-ups (INTERNAL)'
+ 'Trash Can on Public Land' 'Sidewalks' 'Parking Meter'
+ 'Other Sewer-related Concerns'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Tree Care and Removal' 'Sidewalks' 'Illegal Setouts' 'Snow & Ice'
+ 'Other Sewer-related Concerns'
+ 'Large or Bulk Items- Setout notification only' 'Street Lights'
+ 'Street Lights' 'Traffic Signals' 'Traffic & Parking Signs'
+ 'To report an illegally parked vehicle, please call the Syracuse Police Ordinance at 315-448-8650. If this is an emergency, please call 911. Do NOT submit requests to Cityline.'
+ 'Parking Meter' 'Tree Care and Removal' 'Trash Can on Public Land'
+ 'Trash Can on Public Land' 'Street Lights' 'Potholes'
+ 'Sewer Back-ups (INTERNAL)' 'Illegal Setouts'
+ 'Overgrown Grass in Public Spaces' 'Report Litter on Public Land'
+ 'Sewer Back-ups (INTERNAL)' 'Street Lights' 'Street Lights'
+ 'Pavement Markings' 'Illegal Setouts' 'Street Lights'
+ 'Graffiti on Private Land' 'Graffiti on Private Land'
+ 'Other Sewer-related Concerns'
+ 'Other Parks, Trees & Public Utilities Concern' 'Street Lights'
+ 'Street Lights' 'Street Lights' 'Tree Care and Removal'
+ 'Tree Care and Removal' 'Park Maintenance' 'Report a Pothole'
+ 'Traffic Signals' 'Street Lights' 'Traffic Signals' 'Parking Meter'
+ 'Report Litter on Public Land' 'Other Sewer-related Concerns'
+ 'Report Litter on Public Land' 'Home & Building Maintenance'
+ 'Illegal Setouts' 'Snow & Ice' 'Parking Meter'
+ 'Request a free street tree planting (City of Syracuse Property Owners Only)'
+ 'Large or Bulk Items- Setout notification only' 'Traffic Signals'
+ 'Report Litter on Public Land' 'Other Parking & Vehicles Concern'
+ 'Health, Safety & Social Services' 'Sidewalks' 'Trash Can on Public Land'
+ 'Trash Can on Public Land' 'Sidewalks' 'Report Litter on Public Land'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Other Streets, Sidewalks & Transportation Concern' 'Illegal Setouts'
+ 'Parking Meter' 'Traffic Signals'
+ 'Report Trash/Debris Outside a Home/Building'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Report Litter on Public Land'
+ 'Other Housing & Property Maintenance Concern'
+ 'Report Litter on Public Land' 'Parking Meter'
+ 'Report Litter on Public Land']"
+1032,"[np.float64(43.0488885999999), np.float64(43.050855899999895)]","[np.float64(-76.1529400000001), np.float64(-76.1504220000001)]",250,4640,103,59,5,6,21,28,17,2,"['Traffic Signals' 'Other Sewer-related Concerns'
+ 'Other Sewer-related Concerns' 'Report Litter on Public Land'
+ 'Sewer Back-ups (INTERNAL)' 'Traffic & Parking Signs' 'Sidewalks'
+ 'Sidewalks' 'Report an illegally parked vehicle'
+ 'Report an illegally parked vehicle'
+ 'Other Streets, Sidewalks & Transportation Concern' 'Parking Meter'
+ 'Illegal Setouts' 'Tree Care and Removal' 'Sidewalks'
+ 'Graffiti on Public Land' 'Other Sewer-related Concerns'
+ 'Other Parks, Trees & Public Utilities Concern' 'Street Lights'
+ 'Please use this space to provide feedback to the City' 'Parking Meter'
+ 'Health, Safety & Social Services'
+ 'Other Parks, Trees & Public Utilities Concern'
+ 'Report Litter on Public Land' 'Report a Pothole' 'Tree Care and Removal'
+ 'Report a Pothole' 'Street Lights' 'Graffiti on Public Land' 'Sidewalks'
+ 'Street Lights' 'Report Litter on Public Land'
+ 'Report Litter on Public Land' 'Report Litter on Public Land'
+ 'Graffiti on Public Land' 'Parking Meter' 'Parking Meter'
+ 'Street Sweeping (INTERNAL)' 'Report a Pothole'
+ 'Home & Building Maintenance' 'Sidewalks' 'Traffic Signals'
+ 'Please use this space to provide feedback to the City'
+ 'Park Maintenance' 'Street Lights' 'Sidewalks'
+ 'Other Streets, Sidewalks & Transportation Concern' 'Sidewalks'
+ 'Other Streets, Sidewalks & Transportation Concern' 'Traffic Signals'
+ 'Report an illegally parked vehicle' 'Sidewalks' 'Traffic Signals'
+ 'Report Litter on Public Land' 'Report Litter on Public Land'
+ 'Sewer Back-ups (INTERNAL)' 'Report Litter on Public Land' 'Cart Stolen'
+ 'Park Maintenance' 'Trash Can on Public Land' 'Report a Pothole'
+ 'Graffiti on Public Land' 'Report Litter on Public Land'
+ 'Report Litter on Public Land' 'Park Maintenance' 'Park Maintenance'
+ 'Tree Care and Removal' 'Trash Can on Public Land' 'Report a Pothole'
+ 'Other Streets, Sidewalks & Transportation Concern' 'Report a Pothole'
+ 'Report internal structural damage of a Catch Basin/Storm Drain'
+ 'Trash Can in Parks' 'Other Streets, Sidewalks & Transportation Concern'
+ 'Sidewalks' 'Traffic Signals' 'Report Litter on Public Land'
+ 'Report an illegally parked vehicle' 'Illegal Setouts'
+ 'Report Litter on Public Land'
+ 'Other Streets, Sidewalks & Transportation Concern' 'Park Maintenance'
+ 'Potholes' 'Traffic & Parking Signs'
+ 'Other Streets, Sidewalks & Transportation Concern' 'Traffic Signals'
+ 'Traffic & Parking Signs' 'Report Litter on Private Land'
+ 'Trash Can on Public Land' 'Illegal Setouts' 'Park Maintenance'
+ 'Other Parks, Trees & Public Utilities Concern' 'Traffic Signals'
+ 'Traffic & Parking Signs' 'Traffic & Parking Signs'
+ 'Traffic & Parking Signs' 'Park Maintenance' 'Snow & Ice' 'Street Lights'
+ 'Report Litter on Public Land' 'Street Lights' 'Parking Meter'
+ 'Sewer Back-ups (INTERNAL)' 'Other Sewer-related Concerns'
+ 'Health, Safety & Social Services' 'Health, Safety & Social Services'
+ 'Trash Can on Public Land' 'Sidewalks' 'Potholes'
+ 'Report Litter on Public Land' 'Roadkill' 'Traffic Signals'
+ 'Street Lights' 'Report Litter on Public Land' 'Sidewalks'
+ 'Illegal Setouts' 'Other Parking & Vehicles Concern'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Graffiti on Public Land' 'Other Housing & Property Maintenance Concern'
+ 'Park Maintenance' 'Large or Bulk Items- Setout notification only'
+ 'Other Parking & Vehicles Concern' 'Construction Debris'
+ 'Trash Can on Public Land'
+ 'To report an illegally parked vehicle, please call the Syracuse Police Ordinance at 315-448-8650. If this is an emergency, please call 911. Do NOT submit requests to Cityline.'
+ 'Street Lights' 'Sidewalks' 'Parking Meter' 'Sidewalks'
+ 'To report an illegally parked vehicle, please call the Syracuse Police Ordinance at 315-448-8650. If this is an emergency, please call 911. Do NOT submit requests to Cityline.'
+ 'Other Parking & Vehicles Concern'
+ 'Large or Bulk Items- Setout notification only' 'Park Maintenance'
+ 'Traffic Signals' 'Sidewalks' 'Park Maintenance' 'Parking Meter'
+ 'Street Lights' 'Please use this space to provide feedback to the City'
+ 'Other Sewer-related Concerns' 'Street Lights'
+ 'Report Litter on Public Land' 'Roadkill' 'Home & Building Maintenance'
+ 'Yard Waste' 'Potholes' 'Park Maintenance' 'Pavement Markings'
+ 'Traffic Signals' 'Park Maintenance' 'Street Lights' 'Recycling'
+ 'Traffic Signals' 'Report Litter on Public Land' 'Street Lights'
+ 'Trash Can on Public Land' 'Sidewalks' 'Sewer Back-ups (INTERNAL)'
+ 'Home & Building Maintenance' 'Sewer Back-ups (INTERNAL)'
+ 'Report Litter on Public Land' 'Graffiti on Private Land'
+ 'Traffic Signals' 'Street Lights' 'Illegal Setouts' 'Traffic Signals'
+ 'Street Lights' 'Sidewalks'
+ 'Other Housing & Property Maintenance Concern' 'Traffic Signals'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Tree Care and Removal' 'Pavement Markings'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Please use this space to provide feedback to the City' 'Traffic Signals'
+ 'Traffic & Parking Signs' 'Illegal Setouts' 'Traffic Signals'
+ 'Traffic Signals' 'Report Litter on Public Land'
+ 'Other Water & Sewage Concern' 'Report a Pothole'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Trash Can on Public Land' 'Parking Meter'
+ 'Please use this space to provide feedback to the City'
+ 'Other Streets, Sidewalks & Transportation Concern' 'Street Lights'
+ 'Tree Care and Removal' 'Tree Care and Removal' 'Illegal Setouts'
+ 'Mixed-Use Cart Request'
+ 'Request a free street tree planting (City of Syracuse Property Owners Only)'
+ 'Sewer Back-ups (INTERNAL)' 'Trash Can on Public Land'
+ 'Report an illegally parked vehicle' 'Park Maintenance'
+ 'Graffiti on Public Land' 'Graffiti on Public Land' 'Parking Meter'
+ 'Traffic Signals' 'Report a Pothole' 'Parking Meter'
+ 'Graffiti on Public Land' 'Parking Meter'
+ 'Large or Bulk Items- Setout notification only' 'Street Lights'
+ 'Sidewalks' 'Illegal Setouts' 'Traffic Signals'
+ 'Please use this space to provide feedback to the City'
+ 'Traffic & Parking Signs' 'Other Parks, Trees & Public Utilities Concern'
+ 'Water-related Concerns' 'Mixed-Use Cart Request' 'Park Maintenance'
+ 'Sidewalks' 'Park Maintenance' 'Traffic & Parking Signs' 'Sidewalks'
+ 'Report Litter on Public Land' 'Pavement Markings'
+ 'Report Litter on Public Land' 'Traffic Signals' 'Traffic Signals'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Sewer Back-ups (INTERNAL)' 'Report Litter on Public Land'
+ 'Report a Pothole' 'Traffic & Parking Signs' 'Graffiti on Public Land'
+ 'Park Maintenance' 'Traffic Signals' 'Traffic Signals'
+ 'Other Streets, Sidewalks & Transportation Concern' 'Illegal Setouts'
+ 'Report Litter on Public Land' 'Other Sewer-related Concerns'
+ 'Other Sewer-related Concerns' 'Traffic Signals' 'Traffic Signals'
+ 'Report Litter on Public Land']"
+1080,"[np.float64(43.044953999999905), np.float64(43.0469212999999)]","[np.float64(-76.1504220000001), np.float64(-76.14790400000011)]",45,1662,15,3,1,0,4,11,10,1,"['Tree Care and Removal' 'Other Parks, Trees & Public Utilities Concern'
+ 'Sidewalks' 'Tree Care and Removal' 'Tree Care and Removal' 'Sidewalks'
+ 'Traffic Signals' 'Park Maintenance'
+ 'Report Trash/Debris Outside a Home/Building'
+ 'Report Litter on Public Land'
+ 'Report internal structural damage of a Catch Basin/Storm Drain'
+ 'Animal Control' 'Water-related Concerns' 'Other Sewer-related Concerns'
+ 'Tree Care and Removal' 'Sidewalks' 'Park Maintenance' 'Potholes'
+ 'Other Sewer-related Concerns' 'Report Litter on Public Land' 'Potholes'
+ 'Sidewalks' 'Traffic & Parking Signs' 'Park Maintenance'
+ 'Sewer Back-ups (INTERNAL)' 'Park Maintenance' 'Sidewalks'
+ 'Parking Meter' 'Sidewalks' 'Sidewalks' 'Other Sewer-related Concerns'
+ 'Other Sewer-related Concerns'
+ 'Other Parks, Trees & Public Utilities Concern'
+ 'Sewer Back-ups (INTERNAL)' 'Sewer Back-ups (INTERNAL)' 'Potholes'
+ 'Other Parking & Vehicles Concern' 'Report an illegally parked vehicle'
+ 'Report a Pothole' 'Sewer Back-ups (INTERNAL)' 'Street Lights'
+ 'Report a Skipped Bulk Pick Up' 'Sidewalks'
+ 'Report an illegally parked vehicle' 'Tree Care and Removal']"
+1081,"[np.float64(43.0469212999999), np.float64(43.0488885999999)]","[np.float64(-76.1504220000001), np.float64(-76.14790400000011)]",90,3755,29,31,5,2,5,8,9,1,"['Graffiti on Private Land' 'Tree Care and Removal'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Please use this space to provide feedback to the City'
+ 'Traffic & Parking Signs' 'Sidewalks' 'Tree Care and Removal'
+ 'Illegal Setouts' 'Report a Skipped Weekly Trash Pick Up'
+ 'Graffiti on Private Land' 'Report Trash/Debris Outside a Home/Building'
+ 'Report a Pothole' 'Tree Care and Removal' 'Report Litter on Public Land'
+ 'Report Litter on Public Land' 'Report Litter on Public Land'
+ 'Water-related Concerns' 'Animal Control' 'Traffic & Parking Signs'
+ 'Other Sewer-related Concerns'
+ 'Electronic or Hazardous Waste That Has Not Been Disposed of Properly'
+ 'Report an illegally parked vehicle' 'Traffic & Parking Signs'
+ 'Report Litter on Public Land'
+ 'Other Streets, Sidewalks & Transportation Concern' 'Illegal Setouts'
+ 'Street Lights' 'Illegal Setouts'
+ 'Report Overgrown Grass on Private Land' 'Sewer Back-ups (INTERNAL)'
+ 'Street Lights' 'Graffiti on Private Land' 'Illegal Setouts' 'Sidewalks'
+ 'Snow & Ice' 'Adopt-A-Block/Earth Day - Request for Trash pick up'
+ 'Street Lights' 'Street Lights' 'Tree Care and Removal'
+ 'Street Sweeping (INTERNAL)'
+ 'To report an illegally parked vehicle, please call the Syracuse Police Ordinance at 315-448-8650. If this is an emergency, please call 911. Do NOT submit requests to Cityline.'
+ 'Tree Care and Removal' 'Report Trash/Debris Outside a Home/Building'
+ 'Report Litter on Public Land' 'Trash Can on Public Land'
+ 'Other Sewer-related Concerns' 'Sidewalks' 'Graffiti on Private Land'
+ 'Please use this space to provide feedback to the City'
+ 'Pavement Markings' 'Other Streets, Sidewalks & Transportation Concern'
+ 'Tree Care and Removal' 'Tree Care and Removal' 'Traffic Signals'
+ 'Illegal Setouts'
+ 'To report an illegally parked vehicle, please call the Syracuse Police Ordinance at 315-448-8650. If this is an emergency, please call 911. Do NOT submit requests to Cityline.'
+ 'Street Lights' 'Illegal Setouts'
+ 'To report an illegally parked vehicle, please call the Syracuse Police Ordinance at 315-448-8650. If this is an emergency, please call 911. Do NOT submit requests to Cityline.'
+ 'Graffiti on Private Land' 'Sidewalks' 'Parking Meter'
+ 'Graffiti on Private Land' 'Report Litter on Private Land' 'Sidewalks'
+ 'Street Lights' 'Graffiti on Private Land' 'Sewer Back-ups (INTERNAL)'
+ 'Street Lights' 'Street Lights' 'Construction Debris'
+ 'Other Garbage & Recycling' 'Street Lights' 'Street Lights' 'Potholes'
+ 'Tree Care and Removal' 'Illegal Setouts' 'Home & Building Maintenance'
+ 'Other Sewer-related Concerns'
+ 'Report Trash/Debris Outside a Home/Building' 'Report a Pothole'
+ 'Graffiti on Private Land' 'Other Sewer-related Concerns'
+ 'Traffic Signals' 'Sidewalks' 'Other Sewer-related Concerns'
+ 'Other Sewer-related Concerns'
+ 'Large or Bulk Items- Setout notification only'
+ 'Report Litter on Public Land' 'Graffiti on Private Land']"
+1082,"[np.float64(43.0488885999999), np.float64(43.050855899999895)]","[np.float64(-76.1504220000001), np.float64(-76.14790400000011)]",243,2423,48,75,27,7,26,25,22,4,"['Other Housing & Property Maintenance Concern' 'Street Lights'
+ 'Park Maintenance' 'Parking Meter' 'Report Litter on Public Land'
+ 'Parking Meter' 'Other Housing & Property Maintenance Concern'
+ 'Report Overgrown Grass in Public Spaces' 'Yard Waste'
+ 'Graffiti on Public Land' 'Illegal Setouts' 'Park Maintenance'
+ 'Sanitation Carts' 'Sanitation Carts' 'Sanitation Carts'
+ 'Report an illegally parked vehicle' 'Other Parking & Vehicles Concern'
+ 'Report Trash/Debris Outside a Home/Building'
+ 'Other Sewer-related Concerns' 'Tree Care and Removal' 'Parking Meter'
+ 'Traffic Signals' 'Tree Care and Removal' 'Sewer Back-ups (INTERNAL)'
+ 'Report Litter on Public Land' 'Other Sewer-related Concerns'
+ 'Report an illegally parked vehicle' 'Report an Abandoned Vehicle'
+ 'Trash Can on Public Land' 'Home & Building Maintenance'
+ 'Report external dirt/debris blocking a Catch Basin/Storm Drain'
+ 'Trash Can on Public Land' 'Report an illegally parked vehicle'
+ 'Cart Stolen' 'Report Litter on Public Land'
+ 'Other Housing & Property Maintenance Concern' 'Traffic & Parking Signs'
+ 'Animal Control' 'Report Litter on Public Land' 'Traffic Signals'
+ 'Other Streets, Sidewalks & Transportation Concern' 'Cart Feedback'
+ 'Other Garbage & Recycling' 'Other Garbage & Recycling'
+ 'Report external dirt/debris blocking a Catch Basin/Storm Drain'
+ 'Report Litter on Private Land'
+ 'Request Construction Debris Pick Up (May and September Only)'
+ 'Tree Care and Removal' 'Street Lights'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Unlawful Dumping on Vacant Land' 'Report a Pothole' 'Park Maintenance'
+ 'Graffiti on Public Land'
+ 'Report internal structural damage of a Catch Basin/Storm Drain'
+ 'Report external dirt/debris blocking a Catch Basin/Storm Drain'
+ 'Report Litter on Public Land' 'Graffiti on Public Land'
+ 'Report Litter on Public Land' 'Trash Can on Public Land'
+ 'Report Overgrown Grass in Public Spaces' 'Trash Can on Public Land'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Tree Care and Removal' 'Report a Skipped Weekly Trash Pick Up'
+ 'Report Litter on Public Land' 'Report a Skipped Recycling Pick Up'
+ 'Recycling' 'Report Trash/Debris Outside a Home/Building'
+ 'Other Parks, Trees & Public Utilities Concern'
+ 'Report Litter on Public Land' 'Street Lights' 'Trash Can on Public Land'
+ 'Trash Can on Public Land' 'Trash Can on Public Land'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Report external dirt/debris blocking a Catch Basin/Storm Drain'
+ 'Report external dirt/debris blocking a Catch Basin/Storm Drain'
+ 'Animal Control' 'Cart Not Delivered' 'Cart Not Delivered'
+ 'Report Litter on Public Land' 'Report Litter on Public Land'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Traffic & Parking Signs' 'Traffic Signals' 'Street Lights'
+ 'Traffic Signals' 'Other Streets, Sidewalks & Transportation Concern'
+ 'Report Litter on Public Land'
+ 'Other Parks, Trees & Public Utilities Concern'
+ 'Other Parks, Trees & Public Utilities Concern'
+ 'Overgrown Grass in Public Spaces'
+ 'Other Parks, Trees & Public Utilities Concern' 'Deer Sighting'
+ 'Other Housing & Property Maintenance Concern' 'Potholes' 'Snow & Ice'
+ 'Parking Meter'
+ 'To report an illegally parked vehicle, please call the Syracuse Police Ordinance at 315-448-8650. If this is an emergency, please call 911. Do NOT submit requests to Cityline.'
+ 'Report Litter on Public Land'
+ 'Report Trash/Debris Outside a Home/Building' 'Street Lights'
+ 'Other Housing & Property Maintenance Concern'
+ 'To report an illegally parked vehicle, please call the Syracuse Police Ordinance at 315-448-8650. If this is an emergency, please call 911. Do NOT submit requests to Cityline.'
+ 'Other Housing & Property Maintenance Concern'
+ 'Illegal setout/sanitation violation dispute' 'Sewer Back-ups (INTERNAL)'
+ 'Sidewalks' 'Sewer Back-ups (INTERNAL)' 'Sidewalks'
+ 'Tree Care and Removal' 'Tree Care and Removal' 'Illegal Setouts'
+ 'Illegal setout/sanitation violation dispute' 'Graffiti on Private Land'
+ 'Illegal Setouts' 'Illegal Setouts' 'Codes Violations/Dispute'
+ 'Sidewalks' 'Please use this space to provide feedback to the City'
+ 'Traffic & Parking Signs' 'Potholes' 'Potholes'
+ 'Other Parking & Vehicles Concern' 'Traffic Signals'
+ 'Please use this space to provide feedback to the City' 'Yard Waste'
+ 'Yard Waste' 'Roadkill' 'Trash Can on Public Land'
+ 'Trash Can on Public Land' 'Parking Meter' 'Other Sewer-related Concerns'
+ 'Cart Stolen' 'Overgrown Grass in Public Spaces'
+ 'Sewer Back-ups (INTERNAL)' 'Overgrown Grass in Public Spaces'
+ 'Report Overgrown Grass on Private Land' 'Yard Waste'
+ 'Tree Care and Removal' 'Other Housing & Property Maintenance Concern'
+ 'Report Trash/Debris Outside a Home/Building' 'Property Damage- INTERNAL'
+ 'Report Trash/Debris Outside a Home/Building'
+ 'Large or Bulk Items- Setout notification only' 'Graffiti on Public Land'
+ 'Large or Bulk Items- Setout notification only' 'Traffic & Parking Signs'
+ 'Sewer Back-ups (INTERNAL)'
+ 'Other Housing & Property Maintenance Concern'
+ 'Report Trash/Debris Outside a Home/Building' 'Sidewalks'
+ 'To report an illegally parked vehicle, please call the Syracuse Police Ordinance at 315-448-8650. If this is an emergency, please call 911. Do NOT submit requests to Cityline.'
+ 'Other Housing & Property Maintenance Concern'
+ 'Illegal setout/sanitation violation dispute'
+ 'Illegal setout/sanitation violation dispute' 'Illegal Setouts'
+ 'Illegal Setouts' 'Report Litter on Public Land' 'Tree Care and Removal'
+ 'Illegal Setouts' 'Tree Care and Removal'
+ 'Large or Bulk Items- Setout notification only' 'Graffiti on Public Land'
+ 'Illegal setout/sanitation violation dispute' 'Parking Meter'
+ 'Codes Violations/Dispute' 'Home & Building Maintenance'
+ 'Large or Bulk Items- Setout notification only' 'Sidewalks'
+ 'Please use this space to provide feedback to the City'
+ 'Other Sewer-related Concerns' 'Potholes'
+ 'Please use this space to provide feedback to the City'
+ 'Report Litter on Public Land' 'Sidewalks' 'Sidewalks'
+ 'Sewer Back-ups (INTERNAL)'
+ 'Please use this space to provide feedback to the City'
+ 'Other Parking & Vehicles Concern' 'Street Lights' 'Parking Meter'
+ 'Report Litter on Public Land' 'Traffic Signals'
+ 'Sewer Back-ups (INTERNAL)' 'Sidewalks' 'Parking Meter' 'Parking Meter'
+ 'Large or Bulk Items- Setout notification only'
+ 'Other Parking & Vehicles Concern' 'Water-related Concerns'
+ 'Traffic Signals' 'Please use this space to provide feedback to the City'
+ 'Illegal Setouts' 'Please use this space to provide feedback to the City'
+ 'Other Parks, Trees & Public Utilities Concern'
+ 'To report an illegally parked vehicle, please call the Syracuse Police Ordinance at 315-448-8650. If this is an emergency, please call 911. Do NOT submit requests to Cityline.'
+ 'Street Lights' 'Other Parking & Vehicles Concern' 'Street Lights'
+ 'Traffic & Parking Signs' 'Home & Building Maintenance' 'Potholes'
+ 'Home & Building Maintenance' 'Report a Skipped Weekly Trash Pick Up'
+ 'Report an illegally parked vehicle' 'Trash Can on Public Land'
+ 'Sewer Back-ups (INTERNAL)'
+ 'Request Construction Debris Pick Up (May and September Only)'
+ 'Other Housing & Property Maintenance Concern' 'Traffic Signals'
+ 'Other Parking & Vehicles Concern' 'Other Parking & Vehicles Concern'
+ 'Other Parking & Vehicles Concern' 'Sidewalks' 'Traffic Signals'
+ 'Report a Skipped Bulk Pick Up' 'Illegal Setouts'
+ 'Trash Can on Public Land'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Mixed-Use Cart Request' 'Large or Bulk Items- Setout notification only'
+ 'Report Litter on Public Land' 'Graffiti on Public Land'
+ 'Report Litter on Public Land' 'Tree Care and Removal'
+ 'Other Sewer-related Concerns'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Report Litter on Public Land' 'Other Sewer-related Concerns'
+ 'Other Sewer-related Concerns' 'Sidewalks'
+ 'Large or Bulk Items- Setout notification only' 'Sidewalks' 'Cart Broken'
+ 'Tree Care and Removal' 'Report Overgrown Grass on Private Land'
+ 'Large or Bulk Items- Setout notification only' 'Street Lights'
+ 'Park Maintenance' 'Other Housing & Property Maintenance Concern'
+ 'Street Lights']"
+1130,"[np.float64(43.044953999999905), np.float64(43.0469212999999)]","[np.float64(-76.14790400000011), np.float64(-76.14538600000012)]",16,1346,4,4,1,3,1,0,3,0,"['Please use this space to provide feedback to the City'
+ 'Home & Building Maintenance' 'Sidewalks'
+ 'Report a Skipped Weekly Trash Pick Up'
+ 'Please use this space to provide feedback to the City'
+ 'Request Construction Debris Pick Up (May and September Only)'
+ 'Report internal structural damage of a Catch Basin/Storm Drain'
+ 'Street Lights' 'Traffic & Parking Signs' 'Illegal Setouts'
+ 'Parking Meter' 'Sewer Back-ups (INTERNAL)'
+ 'Report Litter on Public Land' 'Other Sewer-related Concerns'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Please use this space to provide feedback to the City']"
+1277,"[np.float64(43.039052099999914), np.float64(43.04101939999991)]","[np.float64(-76.14035000000013), np.float64(-76.13783200000013)]",7,1010,4,1,0,0,1,0,1,0,"['Pavement Markings' 'Illegal Setouts' 'Sewer Back-ups (INTERNAL)'
+ 'Other Parking & Vehicles Concern' 'Street Lights' 'Traffic Signals'
+ 'Traffic Signals']"
+1328,"[np.float64(43.04101939999991), np.float64(43.04298669999991)]","[np.float64(-76.13783200000013), np.float64(-76.13531400000014)]",97,3151,32,23,6,0,5,2,29,0,"['Sewer Back-ups (INTERNAL)' 'Sewer Back-ups (INTERNAL)'
+ 'Report Trash/Debris Outside a Home/Building' 'Traffic & Parking Signs'
+ 'Report a Pothole' 'Sewer Back-ups (INTERNAL)'
+ 'Home & Building Maintenance' 'Illegal Setouts'
+ 'Other Sewer-related Concerns' 'Sidewalks' 'Report a Pothole'
+ 'Graffiti on Public Land' 'Report a Pothole' 'Report a Pothole'
+ 'Street Lights' 'Other Sewer-related Concerns' 'Report a Pothole'
+ 'Sidewalks' 'Sewer Back-ups (INTERNAL)'
+ 'Report Trash/Debris Outside a Home/Building' 'Tree Care and Removal'
+ 'Illegal Setouts' 'Illegal Setouts' 'Street Lights'
+ 'Report Trash/Debris Outside a Home/Building' 'Street Lights' 'Sidewalks'
+ 'Parking Meter' 'Sidewalks' 'Other Sewer-related Concerns'
+ 'Illegal Setouts' 'Sewer Back-ups (INTERNAL)' 'Street Lights'
+ 'Snow & Ice' 'Traffic & Parking Signs' 'Other Sewer-related Concerns'
+ 'Sewer Back-ups (INTERNAL)' 'Sewer Back-ups (INTERNAL)'
+ 'Water-related Concerns' 'Illegal Setouts' 'Illegal Setouts'
+ 'Illegal Setouts' 'Traffic Signals' 'Other Sewer-related Concerns'
+ 'Street Lights' 'Illegal Setouts' 'Snow & Ice'
+ 'To report an illegally parked vehicle, please call the Syracuse Police Ordinance at 315-448-8650. If this is an emergency, please call 911. Do NOT submit requests to Cityline.'
+ 'Illegal Setouts' 'Illegal Setouts' 'Sidewalks' 'Illegal Setouts'
+ 'Other Parks, Trees & Public Utilities Concern'
+ 'Sewer Back-ups (INTERNAL)' 'Sewer Back-ups (INTERNAL)'
+ 'Illegal setout/sanitation violation dispute' 'Sidewalks'
+ 'Sewer Back-ups (INTERNAL)' 'Potholes' 'Illegal Setouts' 'Potholes'
+ 'Illegal Setouts' 'Illegal Setouts' 'Illegal Setouts' 'Illegal Setouts'
+ 'Illegal Setouts' 'Street Lights' 'Sewer Back-ups (INTERNAL)'
+ 'Parking Meter' 'Parking Meter' 'Sewer Back-ups (INTERNAL)'
+ 'Water-related Concerns' 'Sewer Back-ups (INTERNAL)' 'Snow & Ice'
+ 'Street Lights' 'Report Litter on Private Land'
+ 'Sewer Back-ups (INTERNAL)' 'Sewer Back-ups (INTERNAL)' 'Traffic Signals'
+ 'Street Lights' 'Street Lights' 'Street Lights' 'Snow & Ice'
+ 'Report Trash/Debris Outside a Home/Building' 'Illegal Setouts'
+ 'Illegal Setouts' 'Other Sewer-related Concerns'
+ 'Sewer Back-ups (INTERNAL)' 'Illegal Setouts'
+ 'Other Sewer-related Concerns' 'Sewer Back-ups (INTERNAL)'
+ 'Parking Meter' 'Other Sewer-related Concerns' 'Snow & Ice'
+ 'Sewer Back-ups (INTERNAL)' 'Sewer Back-ups (INTERNAL)'
+ 'Report Trash/Debris Outside a Home/Building']"
+1330,"[np.float64(43.044953999999905), np.float64(43.0469212999999)]","[np.float64(-76.13783200000013), np.float64(-76.13531400000014)]",40,1037,15,7,0,0,2,3,10,0,"['Traffic & Parking Signs' 'Tree Care and Removal' 'Illegal Setouts'
+ 'Sewer Back-ups (INTERNAL)' 'Other Sewer-related Concerns'
+ 'Report a Pothole' 'Other Sewer-related Concerns' 'Traffic Signals'
+ 'Report a Pothole' 'Sewer Back-ups (INTERNAL)'
+ 'Sewer Back-ups (INTERNAL)' 'Other Sewer-related Concerns'
+ 'Tree Care and Removal' 'Report Litter on Public Land' 'Potholes'
+ 'Potholes' 'Traffic & Parking Signs' 'Tree Care and Removal'
+ 'Health, Safety & Social Services'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Sewer Back-ups (INTERNAL)' 'Sewer Back-ups (INTERNAL)' 'Potholes'
+ 'Parking Meter' 'Potholes' 'Other Sewer-related Concerns'
+ 'Pavement Markings' 'Report a Pothole' 'Graffiti on Public Land'
+ 'Traffic & Parking Signs' 'Graffiti on Public Land' 'Report a Pothole'
+ 'Sewer Back-ups (INTERNAL)' 'Graffiti on Public Land' 'Traffic Signals'
+ 'Report a Pothole' 'Parking Meter' 'Report Litter on Public Land'
+ 'Traffic & Parking Signs' 'Report Litter on Public Land']"
+1378,"[np.float64(43.04101939999991), np.float64(43.04298669999991)]","[np.float64(-76.13531400000014), np.float64(-76.13279600000014)]",33,6298,13,4,0,0,5,1,10,0,"['Sewer Back-ups (INTERNAL)' 'Report an Abandoned Vehicle' 'Sidewalks'
+ 'Sewer Back-ups (INTERNAL)' 'Sewer Back-ups (INTERNAL)'
+ 'Trash Can on Public Land' 'Report an illegally parked vehicle'
+ 'Tree Care and Removal' 'Illegal Setouts' 'Traffic & Parking Signs'
+ 'Other Sewer-related Concerns' 'Water-related Concerns'
+ 'Other Sewer-related Concerns' 'Parking Meter' 'Trash Can on Public Land'
+ 'Pavement Markings' 'Sewer Back-ups (INTERNAL)' 'Parking Meter'
+ 'Sidewalks' 'Other Sewer-related Concerns'
+ 'Report Litter on Private Land' 'Potholes' 'Potholes'
+ 'Sewer Back-ups (INTERNAL)' 'Street Lights' 'Street Lights'
+ 'Parking Meter' 'Snow & Ice' 'Traffic & Parking Signs' 'Sidewalks'
+ 'Sidewalks' 'Snow & Ice' 'Sewer Back-ups (INTERNAL)']"
+1427,"[np.float64(43.039052099999914), np.float64(43.04101939999991)]","[np.float64(-76.13279600000014), np.float64(-76.13027800000015)]",5,3512,4,0,0,0,0,0,1,0,"['Traffic Signals' 'Traffic & Parking Signs' 'Traffic Signals'
+ 'Traffic Signals' 'Other Sewer-related Concerns']"
+1428,"[np.float64(43.04101939999991), np.float64(43.04298669999991)]","[np.float64(-76.13279600000014), np.float64(-76.13027800000015)]",18,1467,5,1,0,0,1,2,7,0,"['Other Sewer-related Concerns' 'Sewer Back-ups (INTERNAL)'
+ 'Other Sewer-related Concerns' 'Carts-Wrong Number of Carts Delivered'
+ 'Tree Care and Removal' 'Traffic & Parking Signs' 'Weekly Trash Pickup'
+ 'Carts-Wrong Number of Carts Delivered' 'Park Maintenance'
+ 'Other Streets, Sidewalks & Transportation Concern'
+ 'Other Sewer-related Concerns' 'Other Sewer-related Concerns'
+ 'Traffic Signals' 'Potholes' 'Sewer Back-ups (INTERNAL)'
+ 'Sewer Back-ups (INTERNAL)'
+ 'To report an illegally parked vehicle, please call the Syracuse Police Ordinance at 315-448-8650. If this is an emergency, please call 911. Do NOT submit requests to Cityline.'
+ 'Street Lights']"
+1429,"[np.float64(43.04298669999991), np.float64(43.044953999999905)]","[np.float64(-76.13279600000014), np.float64(-76.13027800000015)]",24,1484,6,9,0,0,0,0,4,0,"['Cart Stolen' 'Report a Pothole' 'Report a Pothole'
+ 'Sewer Back-ups (INTERNAL)' 'Cart Stolen' 'Cart Feedback'
+ 'Other Sewer-related Concerns' 'Weekly Trash Pickup' 'Cart Stolen'
+ 'Cart Stolen' 'Potholes' 'Street Sweeping (INTERNAL)'
+ 'Recycling (pick up that has been skipped)'
+ 'Large or Bulk Items- Setout notification only' 'Traffic & Parking Signs'
+ 'Illegal Setouts' 'Illegal Setouts' 'Illegal Setouts' 'Illegal Setouts'
+ 'Other Sewer-related Concerns' 'Illegal Setouts' 'Potholes'
+ 'Other Sewer-related Concerns' 'Street Lights']"
+1430,"[np.float64(43.044953999999905), np.float64(43.0469212999999)]","[np.float64(-76.13279600000014), np.float64(-76.13027800000015)]",118,2693,21,48,4,0,5,1,23,2,"['Sewer Back-ups (INTERNAL)' 'Traffic Signals' 'Traffic & Parking Signs'
+ 'Yard Waste' 'Other Streets, Sidewalks & Transportation Concern'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only' 'Report a Pothole'
+ 'Cart Stolen' 'Illegal Setouts' 'Report an illegally parked vehicle'
+ 'Report an illegally parked vehicle' 'Other Sewer-related Concerns'
+ 'Report Litter on Public Land' 'Cart Not Delivered'
+ 'Other Streets, Sidewalks & Transportation Concern' 'Cart Stolen'
+ 'Cart Stolen' 'Sewer Back-ups (INTERNAL)' 'Report a Pothole'
+ 'Sewer Back-ups (INTERNAL)' 'Sewer Back-ups (INTERNAL)'
+ 'Traffic & Parking Signs' 'Snow & Ice' 'Sewer Back-ups (INTERNAL)'
+ 'Sewer Back-ups (INTERNAL)' 'Sewer Back-ups (INTERNAL)'
+ 'Recycling (pick up that has been skipped)' 'Illegal Setouts'
+ 'Other Sewer-related Concerns' 'Snow & Ice' 'Cart Not Delivered'
+ 'Large or Bulk Items- Setout notification only' 'Cart Not Delivered'
+ 'Carts-Wrong Number of Carts Delivered' 'Traffic & Parking Signs'
+ 'Report Overgrown Grass on Private Land' 'Sewer Back-ups (INTERNAL)'
+ 'Potholes' 'Other Sewer-related Concerns' 'Parking Meter'
+ 'Other Sewer-related Concerns' 'Sewer Back-ups (INTERNAL)'
+ 'Report Overgrown Grass on Private Land'
+ 'Large or Bulk Items- Setout notification only'
+ 'Sewer Back-ups (INTERNAL)'
+ 'Large or Bulk Items- Setout notification only'
+ 'Sewer Back-ups (INTERNAL)' 'Sewer Back-ups (INTERNAL)'
+ 'Recycling (pick up that has been skipped)' 'Potholes'
+ 'Recycling (pick up that has been skipped)'
+ 'Report Overgrown Grass on Private Land'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only' 'Recycling'
+ 'Large or Bulk Items- Setout notification only' 'Potholes' 'Potholes'
+ 'Roadkill' 'Recycling' 'Recycling' 'Street Sweeping (INTERNAL)'
+ 'Report Litter on Private Land' 'Illegal Setouts' 'Illegal Setouts'
+ 'Illegal Setouts' 'Illegal Setouts' 'Illegal Setouts' 'Illegal Setouts'
+ 'Report Litter on Private Land' 'Snow & Ice' 'Weekly Trash Pickup'
+ 'Weekly Trash Pickup' 'Large or Bulk Items- Setout notification only'
+ 'Recycling' 'Traffic Signals' 'Large or Bulk Items- Skipped Pickup'
+ 'Illegal Setouts' 'Other Parking & Vehicles Concern'
+ 'Weekly Trash Pickup' 'Illegal Setouts'
+ 'Large or Bulk Items- Setout notification only' 'Potholes'
+ 'Large or Bulk Items- Setout notification only'
+ 'Large or Bulk Items- Setout notification only'
+ 'Report Overgrown Grass on Private Land' 'Sewer Back-ups (INTERNAL)'
+ 'Illegal Setouts' 'Report Litter on Private Land' 'Snow & Ice'
+ 'Large or Bulk Items- Setout notification only'
+ 'Other Sewer-related Concerns' 'Other Sewer-related Concerns'
+ 'Report an illegally parked vehicle' 'Report Roadkill'
+ 'Sewer Back-ups (INTERNAL)' 'Water-related Concerns'
+ 'Other Streets, Sidewalks & Transportation Concern' 'Report a Pothole'
+ 'Carts-Topographically Challenged' 'Report a Skipped Bulk Pick Up'
+ 'Large or Bulk Items- Setout notification only'
+ 'Carts-Wrong Number of Carts Delivered'
+ 'Carts-Wrong Number of Carts Delivered' 'Report Litter on Public Land'
+ 'Sewer Back-ups (INTERNAL)' 'Report a Pothole' 'Traffic Signals'
+ 'Report Overgrown Grass in Public Spaces' 'Traffic Signals'
+ 'Report a Skipped Recycling Pick Up' 'Report a Skipped Recycling Pick Up'
+ 'Traffic Signals' 'Traffic & Parking Signs' 'Sewer Back-ups (INTERNAL)']"
+1476,"[np.float64(43.03708479999992), np.float64(43.039052099999914)]","[np.float64(-76.13027800000015), np.float64(-76.12776000000015)]",68,1521,2,44,14,0,1,0,2,2,"['Sewer Back-ups (INTERNAL)' 'Illegal Setouts'
+ 'Report Litter on Private Land' 'Other Sewer-related Concerns'
+ 'Cart Stolen' 'Report an illegally parked vehicle'
+ 'Home & Building Maintenance' 'Cart Stolen' 'Cart Stolen'
+ 'Weekly Trash Pickup' 'Illegal Setouts' 'Illegal Setouts'
+ 'Illegal Setouts' 'Illegal Setouts' 'Illegal Setouts'
+ 'Home & Building Maintenance'
+ 'Report Trash/Debris Outside a Home/Building' 'Weekly Trash Pickup'
+ 'Other Housing & Property Maintenance Concern' 'Weekly Trash Pickup'
+ 'Large or Bulk Items- Setout notification only' 'Roadkill' 'Roadkill'
+ 'Illegal Setouts' 'Large or Bulk Items- Setout notification only'
+ 'Report Litter on Public Land'
+ 'Other Housing & Property Maintenance Concern' 'Illegal Setouts'
+ 'Yard Waste' 'Illegal Setouts' 'Illegal Setouts' 'Illegal Setouts'
+ 'Illegal Setouts' 'Recycling' 'Recycling' 'Illegal Setouts'
+ 'Report Litter on Private Land' 'Illegal Setouts' 'Illegal Setouts'
+ 'Illegal Setouts' 'Home & Building Maintenance'
+ 'Other Housing & Property Maintenance Concern' 'Illegal Setouts'
+ 'Report Litter on Private Land' 'Weekly Trash Pickup'
+ 'Weekly Trash Pickup' 'Other Housing & Property Maintenance Concern'
+ 'Illegal Setouts' 'Other Housing & Property Maintenance Concern'
+ 'Other Housing & Property Maintenance Concern' 'Illegal Setouts'
+ 'Illegal Setouts' 'Report Litter on Private Land'
+ 'Home & Building Maintenance'
+ 'Other Streets, Sidewalks & Transportation Concern' 'Illegal Setouts'
+ 'Illegal Setouts' 'Other Housing & Property Maintenance Concern'
+ 'Traffic Signals' 'Large or Bulk Items- Setout notification only'
+ 'Report Litter on Private Land' 'Illegal Setouts'
+ 'Report Litter on Private Land'
+ 'Report Trash/Debris Outside a Home/Building'
+ 'Report Litter on Private Land'
+ 'Report Trash/Debris Outside a Home/Building' 'Illegal Setouts'
+ 'Illegal Setouts']"

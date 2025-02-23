@@ -70,7 +70,7 @@ def AnimalsRequests(minLat, maxLat, minLong, maxLong):
 def aggregateCategories(minLat, maxLat, minLong, maxLong):
     filterd = df2[(df2['Lat'] >= minLat) & (df2['Lat'] <= maxLat)
                 & (df2['Lng'] >= minLong) & (df2['Lng'] <= maxLong)]   
-    return filterd["Category"]
+    return np.array(filterd["Category"])
 
 # Column 1, 2 should be long range, lat range from arrZones object respectively
 # Column 3, 4 will be the number of city complaints and the number of parking violations 
