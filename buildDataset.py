@@ -11,7 +11,13 @@ def numberOfParkingViolations(minLat, maxLat, minLong, maxLong):
 numberOfParkingViolations(df["LAT"].min(), df["LAT"].max(), df["LONG"].min(), df["LONG"].max())
 
 
+df2 = pd.read_csv("SYRCityline_Requests_(2021-Present)(1).csv")
+
 def numberOfCityComps(minLat, maxLat, minLong, maxLong) -> int: 
-    print("gel")
+    filterd = df2[(df2['Lat'] >= minLat) & (df2['Lat'] <= maxLat)
+                & (df2['Lng'] >= minLong) & (df2['Lng'] <= maxLong)]   
+    print(filterd)
+
+numberOfCityComps(df2["Lat"].min(), df2["Lat"].max(), df2["Lng"].min(), df2["Lng"].max())
 
  
